@@ -10,6 +10,7 @@ def sci(x, d=1):
     if x == 0: return "0"
     s = f"{x:.{d}e}"; m, e = s.split("e"); return f"${m}\\times10^{{{int(e)}}}$"
 def dec(x, d=3): return f"{x:.{d}f}"
+def rat(x): return f"{x:.2f}" if x < 1 else f"{x:.1f}"  # speedup ratios: 2 decimals below 1
 out = []
 def emit(tag, lines): out.append(f"%% ==== {tag}\n" + "\n".join(lines) + "\n")
 
@@ -27,7 +28,7 @@ if os.path.exists(os.path.join(R, "runtime.csv")):
                         sp, do, ne = rows["sinkhorn"], rows["dou"], rows["newton"]
                         lab = {"indep": "Indep.", "gauss0.5": "Gauss.\\ $0.5$", "clayton2": "Clayton $2$"}[kname]
                         lines.append(f"{lab} & {K} & ${size.replace('x', '\\times ')}$ & "
-                                     f"{dec(f(sp['time_mstep_s']),4)} & {dec(f(do['time_mstep_s'])/f(sp['time_mstep_s']),1)} & {dec(f(ne['time_mstep_s'])/f(sp['time_mstep_s']),1)} & "
+                                     f"{dec(f(sp['time_mstep_s']),4)} & {rat(f(do['time_mstep_s'])/f(sp['time_mstep_s']))} & {rat(f(ne['time_mstep_s'])/f(sp['time_mstep_s']))} & "
                                      f"{dec(f(do['time_s'])/f(sp['time_s']),2)} & {dec(f(ne['time_s'])/f(sp['time_s']),2)} & "
                                      f"{sp['iter']}/{ne['iter']} & {dec(1e3*f(sp['time_s'])/int(sp['iter']),2)}/{dec(1e3*f(ne['time_s'])/int(ne['iter']),2)} & {int(sp['inner'])/int(sp['iter']):.1f}/{int(do['inner'])/int(do['iter']):.1f}/{int(ne['inner'])/int(ne['iter']):.1f} \\\\")
             emit(f"runtime-d{d}", lines)
@@ -120,9 +121,9 @@ for p in pairs_order:
         sp = next(r for r in u if r["pair"] == p and r["m"] == m and r["mstep"] == "sinkhorn")
         do = next(r for r in u if r["pair"] == p and r["m"] == m and r["mstep"] == "dou")
         ne = next(r for r in u if r["pair"] == p and r["m"] == m and r["mstep"] == "newton")
-        dag = "" if sp["converged"] == "true" else "$^\\dagger$"
-        cells += [dec(f(sp["time_mstep_s"])*1e3, 1), dec(f(do["time_mstep_s"])/f(sp["time_mstep_s"]), 1), dec(f(ne["time_mstep_s"])/f(sp["time_mstep_s"]), 1),
-                  f"{sp['iter']}/{ne['iter']}{dag}", sci(f(sp["dllf_per_K"]))]
+        dag = lambda r: "" if r["converged"] == "true" else "$^\\dagger$"
+        cells += [dec(f(sp["time_mstep_s"])*1e3, 1), rat(f(do["time_mstep_s"])/f(sp["time_mstep_s"])), rat(f(ne["time_mstep_s"])/f(sp["time_mstep_s"])),
+                  f"{sp['iter']}{dag(sp)}/{ne['iter']}{dag(ne)}", sci(f(sp["dllf_per_K"]))]
     lines.append(" & ".join(cells) + " \\\\")
 emit("uranium-full", lines)
 # order dependence: representative pairs Co-Sc, U-Li, K-Sc at m = 3,5,7
@@ -132,9 +133,9 @@ for p in ("Co-Sc", "U-Li", "K-Sc"):
         sp = next(r for r in u if r["pair"] == p and r["m"] == m and r["mstep"] == "sinkhorn")
         do = next(r for r in u if r["pair"] == p and r["m"] == m and r["mstep"] == "dou")
         ne = next(r for r in u if r["pair"] == p and r["m"] == m and r["mstep"] == "newton")
-        dag = "" if sp["converged"] == "true" else "$^\\dagger$"
+        dag = lambda r: "" if r["converged"] == "true" else "$^\\dagger$"
         lines.append(f"{p.replace('-', '--') if i == 0 else ''} & {m} & {dec(f(sp['time_mstep_s'])*1e3,1)} & {dec(f(do['time_mstep_s'])*1e3,1)} & {dec(f(ne['time_mstep_s'])*1e3,1)} & "
-                     f"{dec(f(do['time_mstep_s'])/f(sp['time_mstep_s']),1)} & {dec(f(ne['time_mstep_s'])/f(sp['time_mstep_s']),1)} & {dec(f(sp['time_s']),3)} & {dec(f(ne['time_s']),3)} & {sp['iter']}/{do['iter']}/{ne['iter']}{dag} & {dec(f(sp['llf']),2)} \\\\")
+                     f"{rat(f(do['time_mstep_s'])/f(sp['time_mstep_s']))} & {rat(f(ne['time_mstep_s'])/f(sp['time_mstep_s']))} & {dec(f(sp['time_s']),3)} & {dec(f(ne['time_s']),3)} & {sp['iter']}{dag(sp)}/{do['iter']}{dag(do)}/{ne['iter']}{dag(ne)} & {dec(f(sp['llf']),2)} \\\\")
 emit("uranium-orders", lines)
 # monotonicity
 mo = rd("uranium_monotone.csv")
@@ -175,8 +176,8 @@ if os.path.exists(os.path.join(R, "large.csv")):
                 sp, do, ne = rows["sinkhorn"], rows["dou"], rows["newton"]
                 lab = {"indep": "Indep.", "gauss0.5": "Gauss.\\ $0.5$", "clayton2": "Clayton $2$"}[kname]
                 dag = lambda r: "" if r["converged"] == "true" else "$^\\dagger$"
-                lines.append(f"{lab} & ${size.replace('x', '\\times ')}$ & {sp['p']} & {dec(f(sp['time_s']),2)} & {dec(f(do['time_s'])/f(sp['time_s']),1)} & {dec(f(ne['time_s'])/f(sp['time_s']),1)} & "
-                             f"{dec(100*f(sp['time_mstep_s'])/f(sp['time_s']),0)}/{dec(100*f(ne['time_mstep_s'])/f(ne['time_s']),0)} & {dec(f(do['time_mstep_s'])/f(sp['time_mstep_s']),1)} & {dec(f(ne['time_mstep_s'])/f(sp['time_mstep_s']),1)} & "
+                lines.append(f"{lab} & ${size.replace('x', '\\times ')}$ & {sp['p']} & {dec(f(sp['time_s']),2)} & {rat(f(do['time_s'])/f(sp['time_s']))} & {rat(f(ne['time_s'])/f(sp['time_s']))} & "
+                             f"{dec(100*f(sp['time_mstep_s'])/f(sp['time_s']),0)}/{dec(100*f(ne['time_mstep_s'])/f(ne['time_s']),0)} & {rat(f(do['time_mstep_s'])/f(sp['time_mstep_s']))} & {rat(f(ne['time_mstep_s'])/f(sp['time_mstep_s']))} & "
                              f"{sp['iter']}{dag(sp)}/{ne['iter']}{dag(ne)} & {dec(1e3*f(sp['time_s'])/int(sp['iter']),1)}/{dec(1e3*f(ne['time_s'])/int(ne['iter']),1)} & {sci(f(sp['dllf_per_K']))} \\\\")
     emit("large", lines)
 
