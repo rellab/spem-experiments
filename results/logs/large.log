@@ -1,0 +1,55 @@
+d=2 indep     10x10        sinkhorn t=0.127 tM=0.004 (3%) iter=2500 inner/it=1.0  |w-what|=8.5e-03 dJ/S=1.5e-05
+d=2 indep     10x10        dou      t=0.273 tM=0.144 (53%) iter=2500 inner/it=1.0  |w-what|=3.9e-03 dJ/S=8.2e-07
+d=2 indep     10x10        newton   t=0.212 tM=0.087 (41%) iter=2500 inner/it=1.5  |w-what|=3.9e-03 dJ/S=8.3e-07
+d=2 gauss0.5  10x10        sinkhorn t=0.132 tM=0.004 (3%) iter=2500 inner/it=1.1  |w-what|=2.4e-02 dJ/S=3.0e-05
+d=2 gauss0.5  10x10        dou      t=0.232 tM=0.102 (44%) iter=2500 inner/it=1.1  |w-what|=1.3e-02 dJ/S=3.9e-06
+d=2 gauss0.5  10x10        newton   t=0.219 tM=0.094 (43%) iter=2500 inner/it=1.5  |w-what|=1.3e-02 dJ/S=3.9e-06
+d=2 clayton2  10x10        sinkhorn t=0.132 tM=0.007 (6%) iter=2500 inner/it=2.5  |w-what|=1.5e-02 dJ/S=8.8e-05
+d=2 clayton2  10x10        dou      t=0.286 tM=0.165 (58%) iter=2500 inner/it=2.0  |w-what|=9.2e-04 dJ/S=1.9e-07
+d=2 clayton2  10x10        newton   t=0.213 tM=0.092 (43%) iter=2500 inner/it=1.5  |w-what|=9.2e-04 dJ/S=1.9e-07
+d=2 indep     20x20        sinkhorn t=0.507 tM=0.007 (1%) iter=2500 inner/it=1.0  |w-what|=9.0e-03 dJ/S=2.8e-05
+d=2 indep     20x20        dou      t=0.645 tM=0.166 (26%) iter=2500 inner/it=1.0  |w-what|=3.6e-03 dJ/S=1.2e-06
+d=2 indep     20x20        newton   t=0.769 tM=0.325 (42%) iter=2301 inner/it=1.5  |w-what|=4.4e-03 dJ/S=1.8e-06
+d=2 gauss0.5  20x20        sinkhorn t=0.503 tM=0.007 (1%) iter=2500 inner/it=1.1  |w-what|=1.2e-02 dJ/S=4.2e-05
+d=2 gauss0.5  20x20        dou      t=0.670 tM=0.181 (27%) iter=2500 inner/it=1.1  |w-what|=7.6e-03 dJ/S=3.4e-06
+d=2 gauss0.5  20x20        newton   t=0.839 tM=0.355 (42%) iter=2500 inner/it=1.5  |w-what|=7.6e-03 dJ/S=3.4e-06
+d=2 clayton2  20x20        sinkhorn t=0.501 tM=0.011 (2%) iter=2500 inner/it=2.2  |w-what|=1.9e-02 dJ/S=1.4e-04
+d=2 clayton2  20x20        dou      t=0.784 tM=0.295 (38%) iter=2500 inner/it=1.8  |w-what|=1.4e-02 dJ/S=5.9e-06
+d=2 clayton2  20x20        newton   t=0.830 tM=0.347 (42%) iter=2500 inner/it=1.5  |w-what|=1.4e-02 dJ/S=5.9e-06
+d=2 indep     30x30        sinkhorn t=1.183 tM=0.011 (1%) iter=2500 inner/it=1.0  |w-what|=9.3e-03 dJ/S=4.2e-05
+d=2 indep     30x30        dou      t=1.423 tM=0.293 (21%) iter=2500 inner/it=1.0  |w-what|=4.8e-03 dJ/S=1.4e-06
+d=2 indep     30x30        newton   t=1.930 tM=0.809 (42%) iter=2500 inner/it=1.5  |w-what|=4.8e-03 dJ/S=1.5e-06
+d=2 gauss0.5  30x30        sinkhorn t=1.159 tM=0.011 (1%) iter=2500 inner/it=1.0  |w-what|=1.3e-02 dJ/S=8.4e-05
+d=2 gauss0.5  30x30        dou      t=1.439 tM=0.302 (21%) iter=2500 inner/it=1.1  |w-what|=6.3e-03 dJ/S=2.2e-06
+d=2 gauss0.5  30x30        newton   t=1.962 tM=0.826 (42%) iter=2500 inner/it=1.5  |w-what|=6.3e-03 dJ/S=2.2e-06
+d=2 clayton2  30x30        sinkhorn t=1.159 tM=0.014 (1%) iter=2500 inner/it=1.8  |w-what|=2.6e-02 dJ/S=2.5e-04
+d=2 clayton2  30x30        dou      t=1.542 tM=0.415 (27%) iter=2500 inner/it=1.5  |w-what|=6.2e-03 dJ/S=2.5e-06
+d=2 clayton2  30x30        newton   t=1.978 tM=0.826 (42%) iter=2500 inner/it=1.5  |w-what|=6.2e-03 dJ/S=2.5e-06
+d=3 indep     5x5x5        sinkhorn t=0.178 tM=0.006 (4%) iter=2500 inner/it=1.1  |w-what|=4.3e-03 dJ/S=1.1e-05
+d=3 indep     5x5x5        dou      t=0.312 tM=0.151 (48%) iter=2500 inner/it=1.1  |w-what|=7.5e-04 dJ/S=3.5e-08
+d=3 indep     5x5x5        newton   t=0.180 tM=0.088 (49%) iter=1431 inner/it=1.6  |w-what|=2.5e-03 dJ/S=8.4e-07
+d=3 gauss0.5  5x5x5        sinkhorn t=0.130 tM=0.005 (4%) iter=1941 inner/it=1.4  |w-what|=8.3e-03 dJ/S=5.1e-05
+d=3 gauss0.5  5x5x5        dou      t=0.367 tM=0.199 (54%) iter=2421 inner/it=1.3  |w-what|=1.0e-03 dJ/S=8.8e-08
+d=3 gauss0.5  5x5x5        newton   t=0.181 tM=0.092 (51%) iter=1421 inner/it=1.6  |w-what|=3.5e-03 dJ/S=1.1e-06
+d=3 clayton2  5x5x5        sinkhorn t=0.128 tM=0.025 (19%) iter=1611 inner/it=10.0  |w-what|=1.1e-02 dJ/S=7.4e-05
+d=3 clayton2  5x5x5        dou      t=0.925 tM=0.872 (94%) iter= 831 inner/it=19.5  |w-what|=2.3e-04 dJ/S=6.8e-09
+d=3 clayton2  5x5x5        newton   t=0.091 tM=0.049 (53%) iter= 681 inner/it=1.7  |w-what|=4.8e-04 dJ/S=1.0e-07
+d=3 indep     10x10x10     sinkhorn t=1.206 tM=0.059 (5%) iter=2271 inner/it=1.1  |w-what|=1.4e-02 dJ/S=7.1e-05
+d=3 indep     10x10x10     dou      t=1.676 tM=0.425 (25%) iter=2500 inner/it=1.1  |w-what|=6.8e-04 dJ/S=6.5e-08
+d=3 indep     10x10x10     newton   t=1.769 tM=0.890 (50%) iter=1751 inner/it=1.5  |w-what|=1.8e-03 dJ/S=6.2e-07
+d=3 gauss0.5  10x10x10     sinkhorn t=1.271 tM=0.017 (1%) iter=2500 inner/it=1.1  |w-what|=1.2e-02 dJ/S=1.7e-04
+d=3 gauss0.5  10x10x10     dou      t=1.684 tM=0.436 (26%) iter=2500 inner/it=1.1  |w-what|=1.4e-03 dJ/S=2.3e-07
+d=3 gauss0.5  10x10x10     newton   t=2.315 tM=1.164 (50%) iter=2311 inner/it=1.6  |w-what|=1.7e-03 dJ/S=3.5e-07
+d=3 clayton2  10x10x10     sinkhorn t=0.687 tM=0.015 (2%) iter=1331 inner/it=2.6  |w-what|=7.4e-03 dJ/S=9.3e-05
+d=3 clayton2  10x10x10     dou      t=1.461 tM=0.592 (41%) iter=1741 inner/it=2.2  |w-what|=4.7e-04 dJ/S=4.0e-08
+d=3 clayton2  10x10x10     newton   t=1.198 tM=0.613 (51%) iter=1171 inner/it=1.6  |w-what|=1.7e-03 dJ/S=7.1e-07
+d=4 indep     5x5x5x5      sinkhorn t=0.446 tM=0.012 (3%) iter=1411 inner/it=1.2  |w-what|=1.3e-02 dJ/S=1.0e-04
+d=4 indep     5x5x5x5      dou      t=0.982 tM=0.370 (38%) iter=2031 inner/it=1.1  |w-what|=4.6e-04 dJ/S=3.1e-08
+d=4 indep     5x5x5x5      newton   t=0.899 tM=0.521 (58%) iter=1261 inner/it=1.6  |w-what|=1.4e-03 dJ/S=3.6e-07
+d=4 gauss0.5  5x5x5x5      sinkhorn t=0.736 tM=0.024 (3%) iter=2361 inner/it=1.5  |w-what|=6.8e-03 dJ/S=2.0e-05
+d=4 gauss0.5  5x5x5x5      dou      t=1.206 tM=0.555 (46%) iter=2171 inner/it=1.6  |w-what|=5.3e-04 dJ/S=5.7e-08
+d=4 gauss0.5  5x5x5x5      newton   t=0.950 tM=0.549 (58%) iter=1341 inner/it=1.6  |w-what|=2.0e-03 dJ/S=1.1e-06
+d=4 clayton2  5x5x5x5      sinkhorn t=0.399 tM=0.135 (34%) iter= 851 inner/it=29.3  |w-what|=9.7e-03 dJ/S=3.1e-05
+d=4 clayton2  5x5x5x5      dou      t=3.733 tM=3.505 (94%) iter= 751 inner/it=30.2  |w-what|=4.2e-04 dJ/S=1.5e-08
+d=4 clayton2  5x5x5x5      newton   t=0.636 tM=0.376 (59%) iter= 871 inner/it=1.7  |w-what|=2.5e-04 dJ/S=1.9e-08
+# wrote results/large.csv

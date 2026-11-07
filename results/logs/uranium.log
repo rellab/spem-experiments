@@ -1,0 +1,95 @@
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 3.6705138796833126e-5
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 5.400455567183826e-7
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 3.542160698088992e-8
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 1.7886422256196965e-5
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 3.715537275184033e-6
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 4.257404282270727e-5
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 6.747151041963662e-5
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+uranium: K=655  variables=U,Li,Co,K,Cs,Sc,Ti
+U-Li   m=3 tau=+0.131  t: SP=0.006 Dou=0.014 Newton=0.007  iter 581/571/551  |dl|/K=8.5e-10  eps=0.005 err=1.13e-05 bound=7.29e-04
+U-Li   m=5 tau=+0.131  t: SP=0.051 Dou=0.102 Newton=0.079  iter 2500/2500/2500  |dl|/K=4.1e-08  eps=0.023 err=2.09e-04 bound=2.01e+00
+U-Li   m=7 tau=+0.131  t: SP=0.094 Dou=0.164 Newton=0.151  iter 2500/2500/2500  |dl|/K=2.3e-08  eps=0.043 err=7.39e-05 bound=1.25e+01
+U-Co   m=3 tau=+0.059  t: SP=0.008 Dou=0.018 Newton=0.008  iter 731/541/551  |dl|/K=2.2e-08  eps=0.052 err=8.46e-04 bound=8.72e-02
+U-Co   m=5 tau=+0.059  t: SP=0.048 Dou=0.103 Newton=0.079  iter 2500/2500/2500  |dl|/K=1.0e-06  eps=0.088 err=3.60e-03 bound=3.17e+01
+U-Co   m=7 tau=+0.059  t: SP=0.094 Dou=0.174 Newton=0.134  iter 2500/2500/2181  |dl|/K=9.7e-07  eps=0.178 err=1.18e-03 bound=2.22e+02
+U-K    m=3 tau=+0.193  t: SP=0.007 Dou=0.019 Newton=0.009  iter 641/621/651  |dl|/K=3.7e-08  eps=0.057 err=5.67e-05 bound=1.15e-01
+U-K    m=5 tau=+0.193  t: SP=0.042 Dou=0.095 Newton=0.052  iter 2151/2191/1611  |dl|/K=1.0e-06  eps=0.045 err=2.80e-04 bound=8.47e+00
+U-K    m=7 tau=+0.193  t: SP=0.099 Dou=0.177 Newton=0.159  iter 2500/2500/2500  |dl|/K=2.1e-07  eps=0.141 err=2.27e-04 bound=1.39e+02
+U-Cs   m=3 tau=+0.469  t: SP=0.014 Dou=0.183 Newton=0.002  iter 171/181/161  |dl|/K=6.3e-07  eps=0.270 err=3.79e-06 bound=3.22e+00
+U-Cs   m=5 tau=+0.469  t: SP=0.035 Dou=0.083 Newton=0.022  iter 1841/1131/651  |dl|/K=3.4e-06  eps=0.349 err=2.53e-03 bound=6.36e+02
+U-Cs   m=7 tau=+0.469  t: SP=0.062 Dou=0.148 Newton=0.080  iter 1661/1801/1301  |dl|/K=1.0e-06  eps=0.191 err=9.86e-04 bound=2.59e+02
+U-Sc   m=3 tau=+0.092  t: SP=0.008 Dou=0.018 Newton=0.008  iter 621/451/461  |dl|/K=8.0e-08  eps=0.039 err=1.09e-03 bound=4.74e-02
+U-Sc   m=5 tau=+0.092  t: SP=0.025 Dou=0.038 Newton=0.027  iter 1191/711/761  |dl|/K=2.7e-06  eps=0.126 err=5.60e-03 bound=6.82e+01
+U-Sc   m=7 tau=+0.092  t: SP=0.097 Dou=0.176 Newton=0.159  iter 2500/2500/2500  |dl|/K=5.1e-07  eps=0.144 err=1.24e-03 bound=1.47e+02
+U-Ti   m=3 tau=+0.134  t: SP=0.005 Dou=0.009 Newton=0.005  iter 431/261/291  |dl|/K=5.3e-07  eps=0.083 err=2.19e-03 bound=2.45e-01
+U-Ti   m=5 tau=+0.134  t: SP=0.054 Dou=0.121 Newton=0.087  iter 2500/2500/2500  |dl|/K=8.8e-07  eps=0.101 err=2.19e-03 bound=4.57e+01
+U-Ti   m=7 tau=+0.134  t: SP=0.100 Dou=0.183 Newton=0.163  iter 2500/2500/2500  |dl|/K=3.5e-07  eps=0.129 err=7.51e-04 bound=1.16e+02
+Li-Co  m=3 tau=+0.006  t: SP=0.010 Dou=0.024 Newton=0.013  iter 981/921/881  |dl|/K=2.3e-10  eps=0.005 err=4.27e-05 bound=8.88e-04
+Li-Co  m=5 tau=+0.006  t: SP=0.068 Dou=0.127 Newton=0.101  iter 2500/2500/2500  |dl|/K=1.9e-07  eps=0.020 err=6.87e-04 bound=1.59e+00
+Li-Co  m=7 tau=+0.006  t: SP=0.115 Dou=0.196 Newton=0.179  iter 2500/2500/2500  |dl|/K=3.5e-08  eps=0.043 err=7.81e-05 bound=1.27e+01
+Li-K   m=3 tau=+0.110  t: SP=0.012 Dou=0.023 Newton=0.013  iter 931/731/731  |dl|/K=4.3e-08  eps=0.023 err=8.05e-04 bound=1.84e-02
+Li-K   m=5 tau=+0.110  t: SP=0.073 Dou=0.129 Newton=0.098  iter 2500/2500/2500  |dl|/K=3.7e-07  eps=0.072 err=1.58e-03 bound=2.08e+01
+Li-K   m=7 tau=+0.110  t: SP=0.119 Dou=0.215 Newton=0.189  iter 2500/2500/2500  |dl|/K=9.7e-08  eps=0.082 err=9.35e-04 bound=4.60e+01
+Li-Cs  m=3 tau=+0.124  t: SP=0.009 Dou=0.021 Newton=0.013  iter 691/701/721  |dl|/K=5.5e-10  eps=0.009 err=2.50e-05 bound=2.67e-03
+Li-Cs  m=5 tau=+0.124  t: SP=0.045 Dou=0.088 Newton=0.066  iter 1941/1761/1811  |dl|/K=9.2e-08  eps=0.059 err=6.98e-04 bound=1.45e+01
+Li-Cs  m=7 tau=+0.124  t: SP=0.107 Dou=0.195 Newton=0.172  iter 2500/2500/2500  |dl|/K=1.8e-07  eps=0.108 err=2.89e-03 bound=8.07e+01
+Li-Sc  m=3 tau=+0.101  t: SP=0.015 Dou=0.029 Newton=0.020  iter 1141/1071/1101  |dl|/K=7.0e-09  eps=0.013 err=1.45e-04 bound=5.91e-03
+Li-Sc  m=5 tau=+0.101  t: SP=0.067 Dou=0.131 Newton=0.099  iter 2500/2500/2451  |dl|/K=9.5e-09  eps=0.061 err=3.18e-04 bound=1.54e+01
+Li-Sc  m=7 tau=+0.101  t: SP=0.113 Dou=0.197 Newton=0.180  iter 2500/2500/2500  |dl|/K=4.4e-07  eps=0.077 err=9.24e-04 bound=4.07e+01
+Li-Ti  m=3 tau=+0.003  t: SP=0.010 Dou=0.021 Newton=0.010  iter 661/571/571  |dl|/K=7.1e-09  eps=0.037 err=2.66e-04 bound=4.75e-02
+Li-Ti  m=5 tau=+0.003  t: SP=0.039 Dou=0.086 Newton=0.067  iter 1651/1761/1781  |dl|/K=5.8e-10  eps=0.039 err=2.72e-04 bound=6.15e+00
+Li-Ti  m=7 tau=+0.003  t: SP=0.109 Dou=0.194 Newton=0.184  iter 2500/2500/2500  |dl|/K=1.3e-07  eps=0.070 err=5.87e-04 bound=3.38e+01
+Co-K   m=3 tau=-0.099  t: SP=0.006 Dou=0.012 Newton=0.006  iter 401/321/351  |dl|/K=2.2e-08  eps=0.076 err=4.18e-04 bound=1.89e-01
+Co-K   m=5 tau=-0.099  t: SP=0.062 Dou=0.129 Newton=0.094  iter 2500/2500/2500  |dl|/K=2.3e-08  eps=0.093 err=6.58e-04 bound=3.39e+01
+Co-K   m=7 tau=-0.099  t: SP=0.115 Dou=0.205 Newton=0.180  iter 2500/2500/2500  |dl|/K=5.6e-09  eps=0.081 err=2.27e-04 bound=4.42e+01
+Co-Cs  m=3 tau=+0.165  t: SP=0.004 Dou=0.016 Newton=0.006  iter 311/341/361  |dl|/K=4.8e-08  eps=0.071 err=4.76e-04 bound=1.62e-01
+Co-Cs  m=5 tau=+0.165  t: SP=0.053 Dou=0.117 Newton=0.074  iter 2500/2500/2111  |dl|/K=4.6e-07  eps=0.065 err=4.45e-04 bound=1.64e+01
+Co-Cs  m=7 tau=+0.165  t: SP=0.102 Dou=0.190 Newton=0.161  iter 2500/2500/2391  |dl|/K=4.9e-07  eps=0.118 err=5.79e-04 bound=9.74e+01
+Co-Sc  m=3 tau=+0.531  t: SP=0.010 Dou=0.083 Newton=0.002  iter 171/421/101  |dl|/K=1.3e-05  eps=0.685 err=6.12e-04 bound=2.41e+01
+Co-Sc  m=5 tau=+0.531  t: SP=0.016 Dou=0.171 Newton=0.017  iter 491/421/521  |dl|/K=4.6e-06  eps=0.708 err=6.28e-04 bound=3.03e+03
+Co-Sc  m=7 tau=+0.531  t: SP=0.101 Dou=0.300 Newton=0.145  iter 2500/2500/2201  |dl|/K=2.3e-07  eps=0.537 err=8.00e-04 bound=2.40e+03
+Co-Ti  m=3 tau=+0.363  t: SP=0.004 Dou=0.024 Newton=0.003  iter 201/161/171  |dl|/K=2.4e-06  eps=0.196 err=1.31e-03 bound=1.45e+00
+Co-Ti  m=5 tau=+0.363  t: SP=0.023 Dou=0.063 Newton=0.041  iter 1111/1111/1151  |dl|/K=1.2e-07  eps=0.108 err=4.81e-04 bound=5.15e+01
+Co-Ti  m=7 tau=+0.363  t: SP=0.101 Dou=0.194 Newton=0.166  iter 2500/2500/2500  |dl|/K=5.4e-08  eps=0.148 err=8.85e-04 bound=1.55e+02
+K-Cs   m=3 tau=+0.207  t: SP=0.003 Dou=0.014 Newton=0.005  iter 241/251/291  |dl|/K=4.5e-08  eps=0.053 err=2.02e-04 bound=1.04e-01
+K-Cs   m=5 tau=+0.207  t: SP=0.051 Dou=0.118 Newton=0.080  iter 2151/2151/2151  |dl|/K=4.0e-08  eps=0.132 err=2.39e-04 bound=7.24e+01
+K-Cs   m=7 tau=+0.207  t: SP=0.110 Dou=0.200 Newton=0.164  iter 2500/2500/2341  |dl|/K=5.9e-07  eps=0.083 err=1.18e-03 bound=4.69e+01
+K-Sc   m=3 tau=-0.136  t: SP=0.009 Dou=0.026 Newton=0.011  iter 701/641/691  |dl|/K=7.8e-08  eps=0.053 err=2.50e-04 bound=9.43e-02
+K-Sc   m=5 tau=-0.136  t: SP=0.031 Dou=0.076 Newton=0.053  iter 1311/1401/1401  |dl|/K=6.3e-08  eps=0.070 err=4.57e-04 bound=2.05e+01
+K-Sc   m=7 tau=-0.136  t: SP=0.106 Dou=0.196 Newton=0.174  iter 2500/2500/2500  |dl|/K=6.0e-08  eps=0.132 err=7.26e-04 bound=1.23e+02
+K-Ti   m=3 tau=+0.041  t: SP=0.007 Dou=0.022 Newton=0.012  iter 461/421/591  |dl|/K=6.4e-09  eps=0.037 err=8.92e-05 bound=4.67e-02
+K-Ti   m=5 tau=+0.041  t: SP=0.060 Dou=0.132 Newton=0.094  iter 2500/2500/2500  |dl|/K=5.1e-08  eps=0.045 err=4.41e-04 bound=8.46e+00
+K-Ti   m=7 tau=+0.041  t: SP=0.107 Dou=0.198 Newton=0.168  iter 2500/2500/2431  |dl|/K=8.8e-08  eps=0.077 err=8.93e-04 bound=4.07e+01
+Cs-Sc  m=3 tau=+0.231  t: SP=0.003 Dou=0.011 Newton=0.004  iter 211/211/221  |dl|/K=9.2e-08  eps=0.111 err=4.62e-04 bound=4.14e-01
+Cs-Sc  m=5 tau=+0.231  t: SP=0.053 Dou=0.135 Newton=0.090  iter 2500/2500/2500  |dl|/K=2.0e-07  eps=0.111 err=3.01e-04 bound=5.34e+01
+Cs-Sc  m=7 tau=+0.231  t: SP=0.100 Dou=0.186 Newton=0.157  iter 2500/2500/2351  |dl|/K=1.8e-08  eps=0.173 err=9.46e-04 bound=2.12e+02
+Cs-Ti  m=3 tau=+0.303  t: SP=0.003 Dou=0.018 Newton=0.004  iter 221/231/251  |dl|/K=2.6e-08  eps=0.052 err=8.48e-05 bound=9.56e-02
+Cs-Ti  m=5 tau=+0.303  t: SP=0.025 Dou=0.104 Newton=0.037  iter 1151/1321/1081  |dl|/K=1.3e-07  eps=0.181 err=7.33e-04 bound=1.51e+02
+Cs-Ti  m=7 tau=+0.303  t: SP=0.099 Dou=0.201 Newton=0.132  iter 2500/2500/2021  |dl|/K=1.8e-07  eps=0.252 err=1.23e-03 bound=4.60e+02
+Sc-Ti  m=3 tau=+0.434  t: SP=0.021 Dou=0.286 Newton=0.007  iter 371/401/481  |dl|/K=1.6e-06  eps=0.317 err=1.02e-04 bound=4.44e+00
+Sc-Ti  m=5 tau=+0.434  t: SP=0.019 Dou=0.083 Newton=0.035  iter 871/951/1001  |dl|/K=3.5e-06  eps=0.352 err=3.19e-03 bound=6.22e+02
+Sc-Ti  m=7 tau=+0.434  t: SP=0.061 Dou=0.135 Newton=0.084  iter 1571/1541/1261  |dl|/K=1.3e-07  eps=0.216 err=3.36e-04 bound=3.36e+02
+# wrote results/uranium_pairs.csv
+# wrote results/uranium_bound.csv
+Co-Sc-Ti m=3 sinkhorn t=0.011 iter=211 inner=5061 |w-what|=2.29e-03 dJ/S=2.46e-05
+Co-Sc-Ti m=3 dou      t=0.201 iter=151 inner=4575 |w-what|=1.47e-05 dJ/S=-1.03e-07
+Co-Sc-Ti m=3 newton   t=0.007 iter=171 inner=318 |w-what|=9.69e-06 dJ/S=1.73e-09
+Co-Sc-Ti m=5 sinkhorn t=0.129 iter=1001 inner=5776 |w-what|=1.20e-03 dJ/S=1.12e-06
+Co-Sc-Ti m=5 dou      t=0.553 iter=1001 inner=5759 |w-what|=2.84e-04 dJ/S=1.75e-08
+Co-Sc-Ti m=5 newton   t=0.217 iter=991 inner=1673 |w-what|=3.00e-04 dJ/S=9.28e-09
+# wrote results/uranium_d3.csv
+# wrote results/uranium_monotone.csv

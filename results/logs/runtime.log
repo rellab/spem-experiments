@@ -1,0 +1,127 @@
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 1.8426248526992595e-5
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 3.615116170863075e-7
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 3.7114279507477477e-6
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 1.632304731202794e-5
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 3.059715538711316e-7
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+┌ Warning: reference MAP beaten by a candidate
+│   worst = 3.859862556510052e-5
+└ @ Main ~/Library/CloudStorage/Dropbox/お仕事/学術論文/w-CSDA/BernsteinCopula.jl/bench/v2/lib.jl:308
+d=2 indep     K=100  2x2       sinkhorn t=0.0003 tM=0.0002 iter= 191 inner=   191 conv=true  |w-what|=8.42e-03 dJ/S=1.39e-05
+d=2 indep     K=100  2x2       dou      t=0.0013 tM=0.0012 iter= 121 inner=   121 conv=true  |w-what|=1.59e-07 dJ/S=1.64e-12
+d=2 indep     K=100  2x2       newton   t=0.0004 tM=0.0003 iter= 121 inner=   189 conv=true  |w-what|=1.60e-07 dJ/S=2.26e-12
+d=2 indep     K=100  5x5       sinkhorn t=0.0059 tM=0.0020 iter=1271 inner=  1818 conv=true  |w-what|=2.42e-02 dJ/S=1.92e-04
+d=2 indep     K=100  5x5       dou      t=0.0446 tM=0.0391 iter=1651 inner=  2108 conv=true  |w-what|=1.62e-04 dJ/S=4.24e-09
+d=2 indep     K=100  5x5       newton   t=0.0276 tM=0.0221 iter=1701 inner=  2765 conv=true  |w-what|=1.41e-04 dJ/S=3.32e-09
+d=2 indep     K=100  10x10     sinkhorn t=0.0359 tM=0.0049 iter=2500 inner=  2911 conv=false  |w-what|=4.97e-02 dJ/S=4.34e-04
+d=2 indep     K=100  10x10     dou      t=0.1508 tM=0.1199 iter=2411 inner=  3033 conv=true  |w-what|=6.15e-04 dJ/S=2.41e-08
+d=2 indep     K=100  10x10     newton   t=0.1204 tM=0.0953 iter=1961 inner=  3111 conv=true  |w-what|=1.16e-03 dJ/S=8.44e-08
+d=2 indep     K=1000 2x2       sinkhorn t=0.0011 tM=0.0002 iter= 151 inner=   151 conv=true  |w-what|=1.29e-04 dJ/S=3.39e-09
+d=2 indep     K=1000 2x2       dou      t=0.0016 tM=0.0010 iter= 101 inner=   101 conv=true  |w-what|=1.90e-07 dJ/S=1.29e-12
+d=2 indep     K=1000 2x2       newton   t=0.0248 tM=0.0085 iter=2500 inner=  3370 conv=false  |w-what|=9.35e-07 dJ/S=3.43e-08
+d=2 indep     K=1000 5x5       sinkhorn t=0.0874 tM=0.0039 iter=2500 inner=  2554 conv=false  |w-what|=6.16e-03 dJ/S=4.01e-06
+d=2 indep     K=1000 5x5       dou      t=0.1406 tM=0.0556 iter=2500 inner=  2558 conv=false  |w-what|=1.91e-03 dJ/S=1.94e-07
+d=2 indep     K=1000 5x5       newton   t=0.1156 tM=0.0329 iter=2381 inner=  3675 conv=true  |w-what|=2.08e-03 dJ/S=2.44e-07
+d=2 indep     K=1000 10x10     sinkhorn t=0.3283 tM=0.0050 iter=2500 inner=  2529 conv=false  |w-what|=2.72e-02 dJ/S=3.58e-05
+d=2 indep     K=1000 10x10     dou      t=0.4327 tM=0.1145 iter=2500 inner=  2619 conv=false  |w-what|=1.79e-02 dJ/S=4.63e-06
+d=2 indep     K=1000 10x10     newton   t=0.4456 tM=0.1273 iter=2500 inner=  3850 conv=false  |w-what|=1.79e-02 dJ/S=4.65e-06
+d=2 gauss0.5  K=100  2x2       sinkhorn t=0.0002 tM=0.0002 iter=  71 inner=   230 conv=true  |w-what|=5.03e-06 dJ/S=4.45e-09
+d=2 gauss0.5  K=100  2x2       dou      t=0.0019 tM=0.0019 iter=  61 inner=   223 conv=true  |w-what|=1.94e-07 dJ/S=-3.31e-08
+d=2 gauss0.5  K=100  2x2       newton   t=0.0002 tM=0.0002 iter=  61 inner=    96 conv=true  |w-what|=7.62e-07 dJ/S=-1.84e-07
+d=2 gauss0.5  K=100  5x5       sinkhorn t=0.0078 tM=0.0036 iter=1651 inner=  3591 conv=true  |w-what|=4.98e-02 dJ/S=2.23e-04
+d=2 gauss0.5  K=100  5x5       dou      t=0.0551 tM=0.0525 iter= 941 inner=  2642 conv=true  |w-what|=7.09e-04 dJ/S=2.23e-08
+d=2 gauss0.5  K=100  5x5       newton   t=0.0169 tM=0.0142 iter= 951 inner=  1616 conv=true  |w-what|=6.77e-04 dJ/S=2.27e-08
+d=2 gauss0.5  K=100  10x10     sinkhorn t=0.0426 tM=0.0062 iter=2491 inner=  2931 conv=true  |w-what|=3.41e-02 dJ/S=4.76e-04
+d=2 gauss0.5  K=100  10x10     dou      t=0.1091 tM=0.0868 iter=1671 inner=  2050 conv=true  |w-what|=8.05e-04 dJ/S=5.68e-08
+d=2 gauss0.5  K=100  10x10     newton   t=0.1098 tM=0.0873 iter=1691 inner=  2660 conv=true  |w-what|=7.70e-04 dJ/S=5.20e-08
+d=2 gauss0.5  K=1000 2x2       sinkhorn t=0.0017 tM=0.0005 iter= 131 inner=   576 conv=true  |w-what|=2.06e-07 dJ/S=6.29e-09
+d=2 gauss0.5  K=1000 2x2       dou      t=0.0066 tM=0.0053 iter= 131 inner=   576 conv=true  |w-what|=1.83e-07 dJ/S=6.26e-09
+d=2 gauss0.5  K=1000 2x2       newton   t=0.0045 tM=0.0010 iter= 421 inner=   619 conv=true  |w-what|=2.90e-07 dJ/S=6.00e-10
+d=2 gauss0.5  K=1000 5x5       sinkhorn t=0.0716 tM=0.0043 iter=2500 inner=  3025 conv=false  |w-what|=4.87e-03 dJ/S=1.37e-06
+d=2 gauss0.5  K=1000 5x5       dou      t=0.1377 tM=0.0689 iter=2500 inner=  3003 conv=false  |w-what|=4.80e-04 dJ/S=7.10e-08
+d=2 gauss0.5  K=1000 5x5       newton   t=0.0842 tM=0.0286 iter=2011 inner=  3124 conv=true  |w-what|=1.11e-03 dJ/S=3.11e-07
+d=2 gauss0.5  K=1000 10x10     sinkhorn t=0.3376 tM=0.0061 iter=2500 inner=  2788 conv=false  |w-what|=1.85e-02 dJ/S=7.53e-06
+d=2 gauss0.5  K=1000 10x10     dou      t=0.4545 tM=0.1260 iter=2500 inner=  2780 conv=false  |w-what|=2.06e-02 dJ/S=6.19e-06
+d=2 gauss0.5  K=1000 10x10     newton   t=0.4659 tM=0.1317 iter=2500 inner=  3825 conv=false  |w-what|=2.06e-02 dJ/S=6.19e-06
+d=2 clayton2  K=100  2x2       sinkhorn t=0.0042 tM=0.0041 iter=  51 inner=  5228 conv=true  |w-what|=1.00e-06 dJ/S=1.36e-07
+d=2 clayton2  K=100  2x2       dou      t=0.0529 tM=0.0528 iter=  51 inner=  5196 conv=true  |w-what|=1.00e-06 dJ/S=1.36e-07
+d=2 clayton2  K=100  2x2       newton   t=0.0004 tM=0.0003 iter=  61 inner=    92 conv=true  |w-what|=3.18e-08 dJ/S=-3.61e-09
+d=2 clayton2  K=100  5x5       sinkhorn t=0.0100 tM=0.0079 iter= 881 inner=  9866 conv=true  |w-what|=1.73e-03 dJ/S=2.32e-05
+d=2 clayton2  K=100  5x5       dou      t=0.2253 tM=0.2229 iter= 801 inner= 10821 conv=true  |w-what|=1.99e-04 dJ/S=1.06e-09
+d=2 clayton2  K=100  5x5       newton   t=0.0156 tM=0.0132 iter= 851 inner=  1434 conv=true  |w-what|=1.42e-04 dJ/S=2.47e-08
+d=2 clayton2  K=100  10x10     sinkhorn t=0.0512 tM=0.0104 iter=2500 inner=  7368 conv=false  |w-what|=2.62e-02 dJ/S=1.34e-03
+d=2 clayton2  K=100  10x10     dou      t=0.3092 tM=0.2820 iter=1971 inner=  6686 conv=true  |w-what|=2.50e-03 dJ/S=1.56e-07
+d=2 clayton2  K=100  10x10     newton   t=0.0785 tM=0.0627 iter=1141 inner=  1818 conv=true  |w-what|=8.02e-03 dJ/S=2.18e-06
+d=2 clayton2  K=1000 2x2       sinkhorn t=0.0008 tM=0.0002 iter=  61 inner=   223 conv=true  |w-what|=1.16e-07 dJ/S=3.56e-09
+d=2 clayton2  K=1000 2x2       dou      t=0.0027 tM=0.0020 iter=  61 inner=   223 conv=true  |w-what|=1.16e-07 dJ/S=3.56e-09
+d=2 clayton2  K=1000 2x2       newton   t=0.0014 tM=0.0003 iter=  61 inner=    94 conv=true  |w-what|=1.94e-07 dJ/S=-3.71e-09
+d=2 clayton2  K=1000 5x5       sinkhorn t=0.0555 tM=0.0107 iter=1451 inner= 11633 conv=true  |w-what|=1.70e-03 dJ/S=5.09e-07
+d=2 clayton2  K=1000 5x5       dou      t=0.3009 tM=0.2531 iter=1801 inner= 11946 conv=true  |w-what|=4.78e-04 dJ/S=2.20e-08
+d=2 clayton2  K=1000 5x5       newton   t=0.0414 tM=0.0153 iter= 991 inner=  1596 conv=true  |w-what|=2.13e-03 dJ/S=5.90e-07
+d=2 clayton2  K=1000 10x10     sinkhorn t=0.3382 tM=0.0081 iter=2500 inner=  4532 conv=false  |w-what|=2.08e-02 dJ/S=1.93e-05
+d=2 clayton2  K=1000 10x10     dou      t=0.5554 tM=0.2117 iter=2500 inner=  4513 conv=false  |w-what|=1.37e-02 dJ/S=4.84e-06
+d=2 clayton2  K=1000 10x10     newton   t=0.4791 tM=0.1376 iter=2500 inner=  3787 conv=false  |w-what|=1.37e-02 dJ/S=4.84e-06
+d=3 indep     K=100  2x2x2     sinkhorn t=0.0022 tM=0.0013 iter= 581 inner=   698 conv=true  |w-what|=4.61e-03 dJ/S=8.04e-06
+d=3 indep     K=100  2x2x2     dou      t=0.0163 tM=0.0157 iter= 391 inner=   512 conv=true  |w-what|=2.51e-05 dJ/S=1.30e-10
+d=3 indep     K=100  2x2x2     newton   t=0.0034 tM=0.0028 iter= 391 inner=   647 conv=true  |w-what|=2.52e-05 dJ/S=1.09e-10
+d=3 indep     K=100  5x5x5     sinkhorn t=0.0403 tM=0.0068 iter=1721 inner=  2190 conv=true  |w-what|=1.85e-02 dJ/S=3.76e-04
+d=3 indep     K=100  5x5x5     dou      t=0.1341 tM=0.1159 iter= 981 inner=  1457 conv=true  |w-what|=1.22e-04 dJ/S=1.07e-08
+d=3 indep     K=100  5x5x5     newton   t=0.1169 tM=0.0986 iter= 991 inner=  1669 conv=true  |w-what|=1.16e-04 dJ/S=1.05e-08
+d=3 indep     K=100  10x10x10  sinkhorn t=0.2136 tM=0.0153 iter=1411 inner=  1873 conv=true  |w-what|=6.00e-02 dJ/S=2.22e-03
+d=3 indep     K=100  10x10x10  dou      t=0.5293 tM=0.3583 iter=1201 inner=  1633 conv=true  |w-what|=5.29e-04 dJ/S=3.99e-08
+d=3 indep     K=100  10x10x10  newton   t=0.6615 tM=0.5680 iter= 651 inner=  1149 conv=true  |w-what|=2.44e-03 dJ/S=1.34e-06
+d=3 indep     K=1000 2x2x2     sinkhorn t=0.0027 tM=0.0005 iter= 311 inner=   311 conv=true  |w-what|=3.92e-04 dJ/S=6.25e-08
+d=3 indep     K=1000 2x2x2     dou      t=0.0097 tM=0.0073 iter= 281 inner=   281 conv=true  |w-what|=3.29e-06 dJ/S=2.31e-12
+d=3 indep     K=1000 2x2x2     newton   t=0.0133 tM=0.0050 iter=1001 inner=  1382 conv=true  |w-what|=2.89e-08 dJ/S=3.49e-13
+d=3 indep     K=1000 5x5x5     sinkhorn t=0.2697 tM=0.0049 iter=1991 inner=  2101 conv=true  |w-what|=4.03e-03 dJ/S=9.09e-06
+d=3 indep     K=1000 5x5x5     dou      t=0.4881 tM=0.1551 iter=2500 inner=  2610 conv=false  |w-what|=8.93e-04 dJ/S=7.58e-08
+d=3 indep     K=1000 5x5x5     newton   t=0.5043 tM=0.1646 iter=2500 inner=  3850 conv=false  |w-what|=8.93e-04 dJ/S=7.43e-08
+d=3 indep     K=1000 10x10x10  sinkhorn t=2.7845 tM=0.0172 iter=2500 inner=  2611 conv=false  |w-what|=9.69e-03 dJ/S=4.63e-05
+d=3 indep     K=1000 10x10x10  dou      t=3.4632 tM=0.5036 iter=2500 inner=  2614 conv=false  |w-what|=2.37e-03 dJ/S=5.78e-07
+d=3 indep     K=1000 10x10x10  newton   t=4.4238 tM=1.4831 iter=2500 inner=  3834 conv=false  |w-what|=2.37e-03 dJ/S=5.79e-07
+d=3 gauss0.5  K=100  2x2x2     sinkhorn t=0.0081 tM=0.0080 iter=  71 inner=  6751 conv=true  |w-what|=4.57e-06 dJ/S=-4.41e-10
+d=3 gauss0.5  K=100  2x2x2     dou      t=0.1622 tM=0.1621 iter=  71 inner=  6829 conv=true  |w-what|=7.99e-07 dJ/S=-1.62e-08
+d=3 gauss0.5  K=100  2x2x2     newton   t=0.0004 tM=0.0004 iter=  71 inner=   118 conv=true  |w-what|=7.39e-07 dJ/S=-1.63e-07
+d=3 gauss0.5  K=100  5x5x5     sinkhorn t=0.0092 tM=0.0027 iter= 491 inner=  1718 conv=true  |w-what|=6.71e-02 dJ/S=1.41e-03
+d=3 gauss0.5  K=100  5x5x5     dou      t=0.1866 tM=0.1678 iter=1371 inner=  2923 conv=true  |w-what|=7.05e-04 dJ/S=6.22e-08
+d=3 gauss0.5  K=100  5x5x5     newton   t=0.0986 tM=0.0834 iter=1071 inner=  1821 conv=true  |w-what|=2.01e-03 dJ/S=5.33e-07
+d=3 gauss0.5  K=100  10x10x10  sinkhorn t=0.1973 tM=0.0140 iter=1701 inner=  2711 conv=true  |w-what|=5.18e-02 dJ/S=2.24e-03
+d=3 gauss0.5  K=100  10x10x10  dou      t=0.4369 tM=0.3259 iter=1031 inner=  1988 conv=true  |w-what|=6.28e-04 dJ/S=8.25e-08
+d=3 gauss0.5  K=100  10x10x10  newton   t=0.5702 tM=0.4833 iter= 761 inner=  1268 conv=true  |w-what|=1.48e-03 dJ/S=5.84e-07
+d=3 gauss0.5  K=1000 2x2x2     sinkhorn t=0.0022 tM=0.0011 iter= 111 inner=  1133 conv=true  |w-what|=1.84e-07 dJ/S=-3.03e-10
+d=3 gauss0.5  K=1000 2x2x2     dou      t=0.0276 tM=0.0264 iter= 111 inner=  1133 conv=true  |w-what|=1.75e-07 dJ/S=-3.06e-10
+d=3 gauss0.5  K=1000 2x2x2     newton   t=0.0018 tM=0.0006 iter= 111 inner=   165 conv=true  |w-what|=8.75e-07 dJ/S=1.53e-08
+d=3 gauss0.5  K=1000 5x5x5     sinkhorn t=0.3562 tM=0.0069 iter=2500 inner=  2881 conv=false  |w-what|=7.55e-03 dJ/S=3.62e-06
+d=3 gauss0.5  K=1000 5x5x5     dou      t=0.5403 tM=0.1865 iter=2500 inner=  2882 conv=false  |w-what|=6.35e-03 dJ/S=1.96e-06
+d=3 gauss0.5  K=1000 5x5x5     newton   t=0.5067 tM=0.1711 iter=2500 inner=  3864 conv=false  |w-what|=6.35e-03 dJ/S=1.96e-06
+d=3 gauss0.5  K=1000 10x10x10  sinkhorn t=2.8146 tM=0.0175 iter=2500 inner=  2697 conv=false  |w-what|=7.65e-03 dJ/S=4.08e-06
+d=3 gauss0.5  K=1000 10x10x10  dou      t=3.3171 tM=0.5019 iter=2500 inner=  2691 conv=false  |w-what|=7.14e-03 dJ/S=1.55e-06
+d=3 gauss0.5  K=1000 10x10x10  newton   t=4.3382 tM=1.4296 iter=2500 inner=  3861 conv=false  |w-what|=7.14e-03 dJ/S=1.55e-06
+d=3 clayton2  K=100  2x2x2     sinkhorn t=0.0097 tM=0.0096 iter=  51 inner=  8518 conv=true  |w-what|=1.13e-06 dJ/S=1.56e-07
+d=3 clayton2  K=100  2x2x2     dou      t=0.2032 tM=0.2032 iter=  51 inner=  8439 conv=true  |w-what|=9.30e-07 dJ/S=1.56e-07
+d=3 clayton2  K=100  2x2x2     newton   t=0.0004 tM=0.0003 iter=  51 inner=    87 conv=true  |w-what|=5.88e-07 dJ/S=2.58e-08
+d=3 clayton2  K=100  5x5x5     sinkhorn t=0.0388 tM=0.0216 iter=1231 inner= 13233 conv=true  |w-what|=3.11e-02 dJ/S=4.43e-04
+d=3 clayton2  K=100  5x5x5     dou      t=0.6685 tM=0.6577 iter= 771 inner= 11080 conv=true  |w-what|=1.27e-03 dJ/S=1.29e-07
+d=3 clayton2  K=100  5x5x5     newton   t=0.0464 tM=0.0392 iter= 501 inner=   840 conv=true  |w-what|=3.10e-03 dJ/S=5.75e-07
+d=3 clayton2  K=100  10x10x10  sinkhorn t=0.2738 tM=0.0347 iter=2261 inner=  8030 conv=true  |w-what|=5.21e-02 dJ/S=1.52e-03
+d=3 clayton2  K=100  10x10x10  dou      t=1.1493 tM=1.0275 iter=1121 inner=  6072 conv=true  |w-what|=4.86e-04 dJ/S=8.69e-08
+d=3 clayton2  K=100  10x10x10  newton   t=0.6812 tM=0.5771 iter= 921 inner=  1519 conv=true  |w-what|=1.12e-03 dJ/S=6.78e-07
+d=3 clayton2  K=1000 2x2x2     sinkhorn t=0.0013 tM=0.0007 iter=  51 inner=   617 conv=true  |w-what|=2.34e-07 dJ/S=1.27e-08
+d=3 clayton2  K=1000 2x2x2     dou      t=0.0150 tM=0.0144 iter=  51 inner=   618 conv=true  |w-what|=2.34e-07 dJ/S=1.27e-08
+d=3 clayton2  K=1000 2x2x2     newton   t=0.0009 tM=0.0004 iter=  51 inner=    86 conv=true  |w-what|=2.56e-07 dJ/S=7.87e-09
+d=3 clayton2  K=1000 5x5x5     sinkhorn t=0.1408 tM=0.0362 iter= 831 inner= 25950 conv=true  |w-what|=5.48e-04 dJ/S=4.50e-07
+d=3 clayton2  K=1000 5x5x5     dou      t=1.5849 tM=1.4226 iter=1291 inner= 26136 conv=true  |w-what|=2.71e-05 dJ/S=-3.86e-08
+d=3 clayton2  K=1000 5x5x5     newton   t=0.1244 tM=0.0462 iter= 631 inner=  1101 conv=true  |w-what|=3.87e-04 dJ/S=8.33e-07
+d=3 clayton2  K=1000 10x10x10  sinkhorn t=2.5791 tM=0.0241 iter=2500 inner=  5530 conv=false  |w-what|=7.09e-03 dJ/S=1.49e-05
+d=3 clayton2  K=1000 10x10x10  dou      t=3.5111 tM=0.9119 iter=2500 inner=  5535 conv=false  |w-what|=6.00e-03 dJ/S=1.83e-06
+d=3 clayton2  K=1000 10x10x10  newton   t=3.8867 tM=1.3140 iter=2500 inner=  3916 conv=false  |w-what|=6.00e-03 dJ/S=1.83e-06
+# wrote results/runtime.csv
