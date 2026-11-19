@@ -1,0 +1,162 @@
+d=2 indep     K=200  2x2      eps=9.415e-02 eta=6.359e-02 rK=1.71e-03 | gap=3.36e-06 cert=1.71e-03 | err=3.93e-03 est=3.93e-03 mu(wSP)=4.4e-01
+d=2 indep     K=800  2x2      eps=6.470e-02 eta=4.229e-02 rK=6.99e-04 | gap=5.02e-07 cert=6.99e-04 | err=1.44e-03 est=1.44e-03 mu(wSP)=4.9e-01
+d=2 indep     K=3200 2x2      eps=4.727e-02 eta=2.905e-02 rK=2.69e-04 | gap=7.90e-08 cert=2.69e-04 | err=5.87e-04 est=5.87e-04 mu(wSP)=4.6e-01
+d=2 gauss0.5  K=200  2x2      eps=1.433e-01 eta=1.056e-01 rK=4.99e-03 | gap=8.26e-09 cert=4.99e-03 | err=3.27e-06 est=3.41e-06 mu(wSP)=1.5e+03
+d=2 gauss0.5  K=800  2x2      eps=5.025e-02 eta=3.338e-02 rK=4.47e-04 | gap=1.37e-11 cert=4.47e-04 | err=7.88e-08 est=7.91e-08 mu(wSP)=5.7e+03
+d=2 gauss0.5  K=3200 2x2      eps=1.741e-02 eta=9.899e-03 rK=2.12e-05 | gap=1.72e-12 cert=2.12e-05 | err=8.00e-10 est=7.94e-10 mu(wSP)=2.7e+04
+d=2 clayton2  K=200  2x2      eps=1.009e-01 eta=6.198e-02 rK=1.08e-03 | gap=8.14e-11 cert=1.08e-03 | err=1.53e-07 est=1.54e-07 mu(wSP)=7.0e+03
+d=2 clayton2  K=800  2x2      eps=6.063e-02 eta=3.954e-02 rK=5.86e-04 | gap=1.16e-11 cert=5.86e-04 | err=2.29e-08 est=2.29e-08 mu(wSP)=2.6e+04
+d=2 clayton2  K=3200 2x2      eps=7.102e-02 eta=4.795e-02 rK=9.35e-04 | gap=1.24e-11 cert=9.35e-04 | err=8.55e-09 est=8.58e-09 mu(wSP)=1.1e+05
+d=2 indep     K=200  5x5      eps=4.775e-01 eta=2.251e-01 rK=1.88e-02 | gap=1.80e-04 cert=1.19e-02 | err=3.88e-02 est=2.07e-01 mu(wSP)=9.1e-02
+d=2 indep     K=800  5x5      eps=2.592e-01 eta=1.172e-01 rK=5.90e-03 | gap=6.79e-06 cert=3.73e-03 | err=7.07e-03 est=3.02e-01 mu(wSP)=2.0e-02
+d=2 indep     K=3200 5x5      eps=1.760e-01 eta=7.195e-02 rK=1.75e-03 | gap=3.79e-07 cert=1.11e-03 | err=1.66e-03 est=1.17e-01 mu(wSP)=1.5e-02
+d=2 gauss0.5  K=200  5x5      eps=5.972e-01 eta=2.394e-01 rK=3.21e-02 | gap=2.13e-04 cert=2.03e-02 | err=4.06e-02 est=1.52e-01 mu(wSP)=2.1e-01
+d=2 gauss0.5  K=800  5x5      eps=3.385e-01 eta=1.603e-01 rK=8.22e-03 | gap=7.70e-06 cert=5.20e-03 | err=1.10e-02 est=1.07e-01 mu(wSP)=7.6e-02
+d=2 gauss0.5  K=3200 5x5      eps=1.863e-01 eta=8.639e-02 rK=2.27e-03 | gap=6.44e-07 cert=1.44e-03 | err=3.29e-03 est=9.84e-02 mu(wSP)=2.3e-02
+d=2 clayton2  K=200  5x5      eps=4.524e-01 eta=1.575e-01 rK=1.43e-02 | gap=3.71e-07 cert=9.07e-03 | err=1.28e-03 est=5.85e-02 mu(wSP)=2.5e-01
+d=2 clayton2  K=800  5x5      eps=3.392e-01 eta=1.437e-01 rK=1.04e-02 | gap=3.22e-06 cert=6.57e-03 | err=3.17e-03 est=1.63e-01 mu(wSP)=6.4e-02
+d=2 clayton2  K=3200 5x5      eps=2.187e-01 eta=8.109e-02 rK=4.60e-03 | gap=3.45e-07 cert=2.91e-03 | err=6.24e-04 est=2.52e-02 mu(wSP)=1.8e-01
+d=2 indep     K=200  10x10    eps=1.280e+00 eta=4.161e-01 rK=7.49e-02 | gap=1.97e-04 cert=3.35e-02 | err=1.75e-02 est=1.59e+00 mu(wSP)=4.7e-02
+d=2 indep     K=800  10x10    eps=6.593e-01 eta=1.754e-01 rK=2.17e-02 | gap=1.84e-05 cert=9.70e-03 | err=1.13e-02 est=2.47e+00 mu(wSP)=8.8e-03
+d=2 indep     K=3200 10x10    eps=4.131e-01 eta=9.183e-02 rK=5.84e-03 | gap=1.33e-06 cert=2.61e-03 | err=2.54e-03 est=4.83e-01 mu(wSP)=1.2e-02
+d=2 gauss0.5  K=200  10x10    eps=1.640e+00 eta=3.423e-01 rK=1.04e-01 | gap=2.01e-04 cert=4.64e-02 | err=2.08e-02 est=8.12e-01 mu(wSP)=1.3e-01
+d=2 gauss0.5  K=800  10x10    eps=7.645e-01 eta=1.962e-01 rK=2.51e-02 | gap=1.31e-05 cert=1.12e-02 | err=7.16e-03 est=1.67e+00 mu(wSP)=1.5e-02
+d=2 gauss0.5  K=3200 10x10    eps=4.648e-01 eta=1.327e-01 rK=7.77e-03 | gap=2.41e-06 cert=3.48e-03 | err=6.75e-03 est=1.54e+00 mu(wSP)=5.0e-03
+d=2 clayton2  K=200  10x10    eps=1.509e+00 eta=3.303e-01 rK=1.10e-01 | gap=8.71e-05 cert=4.93e-02 | err=1.49e-02 est=1.16e+00 mu(wSP)=9.5e-02
+d=2 clayton2  K=800  10x10    eps=6.481e-01 eta=1.609e-01 rK=2.04e-02 | gap=8.39e-06 cert=9.14e-03 | err=9.53e-03 est=6.32e-01 mu(wSP)=3.2e-02
+d=2 clayton2  K=3200 10x10    eps=6.261e-01 eta=1.693e-01 rK=1.79e-02 | gap=1.67e-06 cert=7.99e-03 | err=2.41e-03 est=2.27e+00 mu(wSP)=7.9e-03
+d=3 indep     K=200  5x5x5    eps=1.272e+00 eta=2.976e-01 rK=7.07e-02 | gap=1.88e-04 cert=4.47e-02 | err=1.32e-02 est=2.98e-01 mu(wSP)=2.4e-01
+d=3 indep     K=800  5x5x5    eps=6.571e-01 eta=1.478e-01 rK=2.14e-02 | gap=1.79e-05 cert=1.35e-02 | err=8.10e-03 est=3.29e-01 mu(wSP)=6.5e-02
+d=3 indep     K=3200 5x5x5    eps=3.940e-01 eta=7.916e-02 rK=4.35e-03 | gap=5.20e-07 cert=2.75e-03 | err=1.06e-03 est=4.11e-02 mu(wSP)=1.1e-01
+d=3 gauss0.5  K=200  5x5x5    eps=1.537e+00 eta=3.344e-01 rK=8.86e-02 | gap=8.65e-05 cert=5.60e-02 | err=1.44e-02 est=8.62e-01 mu(wSP)=1.0e-01
+d=3 gauss0.5  K=800  5x5x5    eps=6.362e-01 eta=1.408e-01 rK=1.88e-02 | gap=8.01e-06 cert=1.19e-02 | err=8.07e-03 est=3.24e-01 mu(wSP)=5.8e-02
+d=3 gauss0.5  K=3200 5x5x5    eps=2.911e-01 eta=7.316e-02 rK=4.10e-03 | gap=1.40e-06 cert=2.60e-03 | err=5.15e-03 est=9.62e-02 mu(wSP)=4.3e-02
+d=3 clayton2  K=200  5x5x5    eps=1.012e+00 eta=2.014e-01 rK=3.76e-02 | gap=1.58e-05 cert=2.38e-02 | err=8.76e-03 est=4.39e-01 mu(wSP)=8.6e-02
+d=3 clayton2  K=800  5x5x5    eps=1.248e+00 eta=3.358e-01 rK=6.64e-02 | gap=4.04e-06 cert=4.20e-02 | err=3.27e-03 est=1.48e-01 mu(wSP)=4.5e-01
+d=3 clayton2  K=3200 5x5x5    eps=5.420e-01 eta=1.155e-01 rK=1.32e-02 | gap=2.18e-06 cert=8.35e-03 | err=2.97e-03 est=5.72e-02 mu(wSP)=2.3e-01
+# wrote results/curv.csv
+d=2 indep     2x2     atol=1e-02 iter=    21 tau=7.0e-04 RK=2.9e-03 rK=6.8e-06 | gap=4.7e-11 cert(RK)=2.9e-03 cert(rK)=6.8e-06 | err=1.4e-05 est=1.4e-05
+d=2 indep     2x2     atol=1e-04 iter=    51 tau=1.5e-05 RK=2.2e-03 rK=6.8e-04 | gap=4.8e-07 cert(RK)=2.2e-03 cert(rK)=6.8e-04 | err=1.4e-03 est=1.4e-03
+d=2 indep     2x2     atol=1e-06 iter=    81 tau=3.0e-07 RK=2.2e-03 rK=7.0e-04 | gap=5.0e-07 cert(RK)=2.2e-03 cert(rK)=7.0e-04 | err=1.4e-03 est=1.4e-03
+d=2 indep     2x2     atol=1e-08 iter=   121 tau=1.7e-09 RK=2.2e-03 rK=7.0e-04 | gap=5.0e-07 cert(RK)=2.2e-03 cert(rK)=7.0e-04 | err=1.4e-03 est=1.4e-03
+d=2 indep     2x2     atol=1e-10 iter=   161 tau=9.6e-12 RK=2.2e-03 rK=7.0e-04 | gap=5.0e-07 cert(RK)=2.2e-03 cert(rK)=7.0e-04 | err=1.4e-03 est=1.4e-03
+d=2 gauss0.5  2x2     atol=1e-02 iter=    71 tau=8.0e-02 RK=8.9e-02 rK=7.7e-02 | gap=2.0e-06 cert(RK)=8.9e-02 cert(rK)=7.7e-02 | err=3.9e-05 est=1.1e-04
+d=2 gauss0.5  2x2     atol=1e-04 iter=   101 tau=4.7e-03 RK=6.0e-03 rK=5.1e-03 | gap=2.4e-09 cert(RK)=6.0e-03 cert(rK)=5.1e-03 | err=9.4e-07 est=9.8e-07
+d=2 gauss0.5  2x2     atol=1e-06 iter=   121 tau=3.9e-04 RK=1.7e-03 rK=8.3e-04 | gap=5.8e-11 cert(RK)=1.7e-03 cert(rK)=8.3e-04 | err=1.5e-07 est=1.5e-07
+d=2 gauss0.5  2x2     atol=1e-08 iter=   141 tau=3.1e-05 RK=1.3e-03 rK=4.8e-04 | gap=1.6e-11 cert(RK)=1.3e-03 cert(rK)=4.8e-04 | err=8.4e-08 est=8.5e-08
+d=2 gauss0.5  2x2     atol=1e-10 iter=   181 tau=1.9e-07 RK=1.3e-03 rK=4.5e-04 | gap=1.4e-11 cert(RK)=1.3e-03 cert(rK)=4.5e-04 | err=7.9e-08 est=7.9e-08
+d=2 clayton2  2x2     atol=1e-02 iter=    51 tau=6.2e-03 RK=8.2e-03 rK=6.8e-03 | gap=9.3e-10 cert(RK)=8.2e-03 cert(rK)=6.8e-03 | err=2.7e-07 est=2.8e-07
+d=2 clayton2  2x2     atol=1e-04 iter=    61 tau=3.4e-04 RK=2.3e-03 rK=9.3e-04 | gap=2.2e-11 cert(RK)=2.3e-03 cert(rK)=9.3e-04 | err=3.6e-08 est=3.6e-08
+d=2 clayton2  2x2     atol=1e-06 iter=    61 tau=3.4e-04 RK=2.3e-03 rK=9.3e-04 | gap=2.2e-11 cert(RK)=2.3e-03 cert(rK)=9.3e-04 | err=3.6e-08 est=3.6e-08
+d=2 clayton2  2x2     atol=1e-08 iter=    71 tau=1.9e-05 RK=1.9e-03 rK=6.0e-04 | gap=1.2e-11 cert(RK)=1.9e-03 cert(rK)=6.0e-04 | err=2.4e-08 est=2.4e-08
+d=2 clayton2  2x2     atol=1e-10 iter=    91 tau=5.4e-08 RK=1.9e-03 rK=5.9e-04 | gap=1.2e-11 cert(RK)=1.9e-03 cert(rK)=5.9e-04 | err=2.3e-08 est=2.3e-08
+d=2 indep     5x5     atol=1e-02 iter=   281 tau=2.1e-02 RK=6.0e-02 rK=2.1e-02 | gap=1.2e-04 cert(RK)=3.8e-02 cert(rK)=1.3e-02 | err=2.4e-02 est=1.8e+00
+d=2 indep     5x5     atol=1e-04 iter=   901 tau=2.8e-03 RK=4.1e-02 rK=6.7e-03 | gap=9.5e-06 cert(RK)=2.6e-02 cert(rK)=4.2e-03 | err=9.5e-03 est=3.9e-01
+d=2 indep     5x5     atol=1e-06 iter=  2471 tau=2.5e-04 RK=3.8e-02 rK=5.9e-03 | gap=6.8e-06 cert(RK)=2.4e-02 cert(rK)=3.8e-03 | err=7.9e-03 est=3.1e-01
+d=2 indep     5x5     atol=1e-08 iter=  3751 tau=5.8e-05 RK=3.8e-02 rK=5.9e-03 | gap=6.8e-06 cert(RK)=2.4e-02 cert(rK)=3.7e-03 | err=7.2e-03 est=3.0e-01
+d=2 indep     5x5     atol=1e-10 iter= 16791 tau=1.5e-08 RK=3.8e-02 rK=5.9e-03 | gap=6.8e-06 cert(RK)=2.4e-02 cert(rK)=3.7e-03 | err=7.1e-03 est=3.0e-01
+d=2 gauss0.5  5x5     atol=1e-02 iter=   231 tau=2.9e-02 RK=9.4e-02 rK=3.0e-02 | gap=2.0e-04 cert(RK)=5.9e-02 cert(rK)=1.9e-02 | err=7.2e-02 est=2.4e+00
+d=2 gauss0.5  5x5     atol=1e-04 iter=  1291 tau=1.6e-03 RK=6.9e-02 rK=8.4e-03 | gap=1.1e-05 cert(RK)=4.3e-02 cert(rK)=5.3e-03 | err=1.4e-02 est=1.5e-01
+d=2 gauss0.5  5x5     atol=1e-06 iter=  2361 tau=5.4e-04 RK=6.8e-02 rK=8.3e-03 | gap=7.4e-06 cert(RK)=4.3e-02 cert(rK)=5.2e-03 | err=1.1e-02 est=1.1e-01
+d=2 gauss0.5  5x5     atol=1e-08 iter=  8991 tau=8.7e-07 RK=6.7e-02 rK=8.2e-03 | gap=7.7e-06 cert(RK)=4.3e-02 cert(rK)=5.2e-03 | err=1.1e-02 est=1.1e-01
+d=2 gauss0.5  5x5     atol=1e-10 iter= 14191 tau=8.7e-09 RK=6.7e-02 rK=8.2e-03 | gap=7.7e-06 cert(RK)=4.3e-02 cert(rK)=5.2e-03 | err=1.1e-02 est=1.1e-01
+d=2 clayton2  5x5     atol=1e-02 iter=   121 tau=5.2e-02 RK=1.1e-01 rK=5.3e-02 | gap=1.6e-04 cert(RK)=7.2e-02 cert(rK)=3.4e-02 | err=5.2e-02 est=1.1e+00
+d=2 clayton2  5x5     atol=1e-04 iter=  1221 tau=1.9e-03 RK=6.7e-02 rK=1.0e-02 | gap=6.9e-06 cert(RK)=4.2e-02 cert(rK)=6.6e-03 | err=7.0e-03 est=1.8e-01
+d=2 clayton2  5x5     atol=1e-06 iter=  2811 tau=4.8e-05 RK=6.6e-02 rK=1.0e-02 | gap=3.3e-06 cert(RK)=4.2e-02 cert(rK)=6.6e-03 | err=3.2e-03 est=1.6e-01
+d=2 clayton2  5x5     atol=1e-08 iter=  4731 tau=3.5e-07 RK=6.6e-02 rK=1.0e-02 | gap=3.2e-06 cert(RK)=4.2e-02 cert(rK)=6.6e-03 | err=3.2e-03 est=1.6e-01
+d=2 clayton2  5x5     atol=1e-10 iter=  6571 tau=4.1e-09 RK=6.6e-02 rK=1.0e-02 | gap=3.2e-06 cert(RK)=4.2e-02 cert(rK)=6.6e-03 | err=3.2e-03 est=1.6e-01
+d=2 indep     10x10   atol=1e-02 iter=   371 tau=2.3e-02 RK=2.9e-01 rK=3.2e-02 | gap=2.4e-04 cert(RK)=1.3e-01 cert(rK)=1.4e-02 | err=5.8e-02 est=1.2e+01
+d=2 indep     10x10   atol=1e-04 iter=  1811 tau=1.8e-03 RK=2.6e-01 rK=2.2e-02 | gap=3.0e-05 cert(RK)=1.2e-01 cert(rK)=9.7e-03 | err=2.5e-02 est=4.7e+00
+d=2 indep     10x10   atol=1e-06 iter=  6821 tau=1.8e-04 RK=2.6e-01 rK=2.2e-02 | gap=1.8e-05 cert(RK)=1.2e-01 cert(rK)=9.7e-03 | err=1.1e-02 est=2.6e+00
+d=2 indep     10x10   atol=1e-08 iter=  8901 tau=6.7e-05 RK=2.6e-01 rK=2.2e-02 | gap=1.8e-05 cert(RK)=1.2e-01 cert(rK)=9.7e-03 | err=1.1e-02 est=2.5e+00
+d=2 indep     10x10   atol=1e-10 iter= 42461 tau=4.5e-08 RK=2.6e-01 rK=2.2e-02 | gap=1.8e-05 cert(RK)=1.2e-01 cert(rK)=9.7e-03 | err=1.1e-02 est=2.5e+00
+d=2 gauss0.5  10x10   atol=1e-02 iter=   401 tau=2.1e-02 RK=3.7e-01 rK=3.3e-02 | gap=3.3e-04 cert(RK)=1.7e-01 cert(rK)=1.5e-02 | err=7.7e-02 est=7.0e+00
+d=2 gauss0.5  10x10   atol=1e-04 iter=  2061 tau=1.7e-03 RK=3.6e-01 rK=2.5e-02 | gap=2.1e-05 cert(RK)=1.6e-01 cert(rK)=1.1e-02 | err=2.0e-02 est=2.7e+00
+d=2 gauss0.5  10x10   atol=1e-06 iter=  5391 tau=2.1e-04 RK=3.6e-01 rK=2.5e-02 | gap=1.3e-05 cert(RK)=1.6e-01 cert(rK)=1.1e-02 | err=8.6e-03 est=1.9e+00
+d=2 gauss0.5  10x10   atol=1e-08 iter=  8511 tau=5.2e-05 RK=3.6e-01 rK=2.5e-02 | gap=1.3e-05 cert(RK)=1.6e-01 cert(rK)=1.1e-02 | err=7.7e-03 est=1.7e+00
+d=2 gauss0.5  10x10   atol=1e-10 iter=  9471 tau=4.0e-05 RK=3.6e-01 rK=2.5e-02 | gap=1.3e-05 cert(RK)=1.6e-01 cert(rK)=1.1e-02 | err=7.5e-03 est=1.7e+00
+d=2 clayton2  10x10   atol=1e-02 iter=   311 tau=2.3e-02 RK=2.6e-01 rK=2.8e-02 | gap=3.0e-04 cert(RK)=1.2e-01 cert(rK)=1.2e-02 | err=7.7e-02 est=1.3e+01
+d=2 clayton2  10x10   atol=1e-04 iter=  1701 tau=2.5e-03 RK=2.5e-01 rK=2.1e-02 | gap=1.6e-05 cert(RK)=1.1e-01 cert(rK)=9.3e-03 | err=2.8e-02 est=3.5e+00
+d=2 clayton2  10x10   atol=1e-06 iter=  6421 tau=2.4e-04 RK=2.5e-01 rK=2.0e-02 | gap=8.4e-06 cert(RK)=1.1e-01 cert(rK)=9.2e-03 | err=8.5e-03 est=9.3e-01
+d=2 clayton2  10x10   atol=1e-08 iter=  8041 tau=1.4e-04 RK=2.5e-01 rK=2.0e-02 | gap=8.3e-06 cert(RK)=1.1e-01 cert(rK)=9.1e-03 | err=9.0e-03 est=7.3e-01
+d=2 clayton2  10x10   atol=1e-10 iter= 25091 tau=1.7e-08 RK=2.5e-01 rK=2.0e-02 | gap=8.4e-06 cert(RK)=1.1e-01 cert(rK)=9.1e-03 | err=9.5e-03 est=6.3e-01
+d=3 indep     5x5x5   atol=1e-02 iter=   341 tau=2.3e-02 RK=2.7e-01 rK=3.1e-02 | gap=2.3e-04 cert(RK)=1.7e-01 cert(rK)=1.9e-02 | err=3.0e-02 est=1.2e+00
+d=3 indep     5x5x5   atol=1e-04 iter=  1241 tau=3.1e-03 RK=2.5e-01 rK=2.2e-02 | gap=2.1e-05 cert(RK)=1.6e-01 cert(rK)=1.4e-02 | err=1.0e-02 est=3.5e-01
+d=3 indep     5x5x5   atol=1e-06 iter=  2811 tau=1.7e-04 RK=2.5e-01 rK=2.1e-02 | gap=1.8e-05 cert(RK)=1.6e-01 cert(rK)=1.4e-02 | err=8.2e-03 est=3.3e-01
+d=3 indep     5x5x5   atol=1e-08 iter=  3851 tau=5.2e-05 RK=2.5e-01 rK=2.1e-02 | gap=1.8e-05 cert(RK)=1.6e-01 cert(rK)=1.4e-02 | err=8.1e-03 est=3.3e-01
+d=3 indep     5x5x5   atol=1e-10 iter= 11571 tau=2.5e-08 RK=2.5e-01 rK=2.1e-02 | gap=1.8e-05 cert(RK)=1.6e-01 cert(rK)=1.4e-02 | err=8.1e-03 est=3.3e-01
+d=3 gauss0.5  5x5x5   atol=1e-02 iter=   351 tau=2.5e-02 RK=2.5e-01 rK=3.1e-02 | gap=1.9e-04 cert(RK)=1.6e-01 cert(rK)=2.0e-02 | err=3.7e-02 est=9.4e-01
+d=3 gauss0.5  5x5x5   atol=1e-04 iter=  1201 tau=2.8e-03 RK=2.4e-01 rK=1.9e-02 | gap=1.2e-05 cert(RK)=1.5e-01 cert(rK)=1.2e-02 | err=1.3e-02 est=3.4e-01
+d=3 gauss0.5  5x5x5   atol=1e-06 iter=  2971 tau=1.1e-04 RK=2.3e-01 rK=1.9e-02 | gap=8.1e-06 cert(RK)=1.5e-01 cert(rK)=1.2e-02 | err=8.4e-03 est=3.2e-01
+d=3 gauss0.5  5x5x5   atol=1e-08 iter=  6791 tau=8.7e-07 RK=2.3e-01 rK=1.9e-02 | gap=8.0e-06 cert(RK)=1.5e-01 cert(rK)=1.2e-02 | err=8.1e-03 est=3.2e-01
+d=3 gauss0.5  5x5x5   atol=1e-10 iter= 10781 tau=7.5e-09 RK=2.3e-01 rK=1.9e-02 | gap=8.0e-06 cert(RK)=1.5e-01 cert(rK)=1.2e-02 | err=8.1e-03 est=3.2e-01
+d=3 clayton2  5x5x5   atol=1e-02 iter=   231 tau=2.6e-02 RK=1.2e+00 rK=7.5e-02 | gap=6.6e-05 cert(RK)=7.5e-01 cert(rK)=4.8e-02 | err=1.0e-02 est=5.3e-01
+d=3 clayton2  5x5x5   atol=1e-04 iter=   471 tau=8.1e-03 RK=1.1e+00 rK=6.8e-02 | gap=3.8e-06 cert(RK)=7.0e-01 cert(rK)=4.3e-02 | err=2.7e-03 est=1.5e-01
+d=3 clayton2  5x5x5   atol=1e-06 iter=   991 tau=6.8e-05 RK=1.1e+00 rK=6.6e-02 | gap=4.0e-06 cert(RK)=6.9e-01 cert(rK)=4.2e-02 | err=3.3e-03 est=1.5e-01
+d=3 clayton2  5x5x5   atol=1e-08 iter=  1661 tau=2.0e-06 RK=1.1e+00 rK=6.6e-02 | gap=4.0e-06 cert(RK)=6.9e-01 cert(rK)=4.2e-02 | err=3.3e-03 est=1.5e-01
+d=3 clayton2  5x5x5   atol=1e-10 iter=  2481 tau=3.8e-08 RK=1.1e+00 rK=6.6e-02 | gap=4.0e-06 cert(RK)=6.9e-01 cert(rK)=4.2e-02 | err=3.3e-03 est=1.5e-01
+# wrote results/curv_stopped.csv
+U-Li   m=3 eps=0.005 rK=2.50e-06 | gap=9.70e-12 cert=2.04e-06 | err=1.13e-05 est=2.46e-05 mu(wSP)=1.0e-01
+U-Li   m=5 eps=0.023 rK=3.88e-05 | gap=1.67e-09 cert=2.45e-05 | err=2.09e-04 est=9.87e-04 mu(wSP)=3.9e-02
+U-Li   m=7 eps=0.043 rK=5.17e-05 | gap=4.42e-10 cert=2.76e-05 | err=7.39e-05 est=3.05e-03 mu(wSP)=1.7e-02
+U-Co   m=3 eps=0.052 rK=3.17e-04 | gap=6.25e-08 cert=2.59e-04 | err=8.46e-04 est=1.86e-03 mu(wSP)=1.7e-01
+U-Co   m=5 eps=0.088 rK=7.02e-04 | gap=2.77e-07 cert=4.44e-04 | err=3.60e-03 est=4.12e-02 mu(wSP)=1.7e-02
+U-Co   m=7 eps=0.178 rK=1.79e-03 | gap=2.98e-07 cert=9.58e-04 | err=1.18e-03 est=2.10e-02 mu(wSP)=8.6e-02
+U-K    m=3 eps=0.057 rK=4.16e-04 | gap=5.26e-09 cert=3.40e-04 | err=5.67e-05 est=4.76e-04 mu(wSP)=8.7e-01
+U-K    m=5 eps=0.045 rK=1.30e-04 | gap=5.31e-09 cert=8.21e-05 | err=2.80e-04 est=1.66e-03 mu(wSP)=7.8e-02
+U-K    m=7 eps=0.141 rK=1.07e-03 | gap=1.63e-08 cert=5.72e-04 | err=2.27e-04 est=6.62e-03 mu(wSP)=1.6e-01
+U-Cs   m=3 eps=0.270 rK=1.24e-02 | gap=1.57e-08 cert=1.02e-02 | err=3.79e-06 est=1.02e-05 mu(wSP)=1.2e+03
+U-Cs   m=5 eps=0.349 rK=1.22e-02 | gap=3.55e-06 cert=7.72e-03 | err=2.53e-03 est=2.98e-02 mu(wSP)=4.1e-01
+U-Cs   m=7 eps=0.191 rK=2.47e-03 | gap=2.71e-07 cert=1.32e-03 | err=9.86e-04 est=1.02e-02 mu(wSP)=2.4e-01
+U-Sc   m=3 eps=0.039 rK=2.45e-04 | gap=1.17e-07 cert=2.00e-04 | err=1.09e-03 est=1.38e-03 mu(wSP)=1.8e-01
+U-Sc   m=5 eps=0.126 rK=1.43e-03 | gap=2.65e-06 cert=9.01e-04 | err=5.60e-03 est=8.48e-03 mu(wSP)=1.7e-01
+U-Sc   m=7 eps=0.144 rK=1.44e-03 | gap=3.28e-07 cert=7.69e-04 | err=1.24e-03 est=7.25e-02 mu(wSP)=2.0e-02
+U-Ti   m=3 eps=0.083 rK=1.17e-03 | gap=5.59e-07 cert=9.52e-04 | err=2.19e-03 est=6.21e-03 mu(wSP)=1.9e-01
+U-Ti   m=5 eps=0.101 rK=9.95e-04 | gap=1.55e-07 cert=6.29e-04 | err=2.19e-03 est=1.93e-02 mu(wSP)=5.2e-02
+U-Ti   m=7 eps=0.129 rK=9.07e-04 | gap=6.07e-08 cert=4.85e-04 | err=7.51e-04 est=3.19e-02 mu(wSP)=2.8e-02
+Li-Co  m=3 eps=0.005 rK=4.27e-06 | gap=8.35e-11 cert=3.48e-06 | err=4.27e-05 est=4.91e-05 mu(wSP)=8.7e-02
+Li-Co  m=5 eps=0.020 rK=3.74e-05 | gap=6.38e-09 cert=2.37e-05 | err=6.87e-04 est=1.55e-03 mu(wSP)=2.4e-02
+Li-Co  m=7 eps=0.043 rK=1.26e-04 | gap=1.12e-09 cert=6.73e-05 | err=7.81e-05 est=2.98e-03 mu(wSP)=4.2e-02
+Li-K   m=3 eps=0.023 rK=8.37e-05 | gap=3.20e-08 cert=6.83e-05 | err=8.05e-04 est=8.76e-04 mu(wSP)=9.6e-02
+Li-K   m=5 eps=0.072 rK=4.81e-04 | gap=1.73e-07 cert=3.05e-04 | err=1.58e-03 est=1.03e-02 mu(wSP)=4.7e-02
+Li-K   m=7 eps=0.082 rK=4.46e-04 | gap=5.79e-08 cert=2.38e-04 | err=9.35e-04 est=2.09e-02 mu(wSP)=2.1e-02
+Li-Cs  m=3 eps=0.009 rK=1.09e-05 | gap=1.25e-10 cert=8.89e-06 | err=2.50e-05 est=1.05e-04 mu(wSP)=1.0e-01
+Li-Cs  m=5 eps=0.059 rK=2.84e-04 | gap=4.31e-08 cert=1.79e-04 | err=6.98e-04 est=5.12e-03 mu(wSP)=5.5e-02
+Li-Cs  m=7 eps=0.108 rK=4.53e-04 | gap=1.04e-07 cert=2.42e-04 | err=2.89e-03 est=2.61e-02 mu(wSP)=1.7e-02
+Li-Sc  m=3 eps=0.013 rK=2.50e-05 | gap=1.34e-09 cert=2.04e-05 | err=1.45e-04 est=2.79e-04 mu(wSP)=8.9e-02
+Li-Sc  m=5 eps=0.061 rK=3.57e-04 | gap=1.95e-08 cert=2.26e-04 | err=3.18e-04 est=7.46e-03 mu(wSP)=4.8e-02
+Li-Sc  m=7 eps=0.077 rK=2.63e-04 | gap=2.50e-08 cert=1.41e-04 | err=9.24e-04 est=9.17e-03 mu(wSP)=2.9e-02
+Li-Ti  m=3 eps=0.037 rK=2.00e-04 | gap=7.44e-09 cert=1.64e-04 | err=2.66e-04 est=1.06e-03 mu(wSP)=1.9e-01
+Li-Ti  m=5 eps=0.039 rK=8.13e-05 | gap=4.95e-09 cert=5.14e-05 | err=2.72e-04 est=1.96e-03 mu(wSP)=4.2e-02
+Li-Ti  m=7 eps=0.070 rK=2.73e-04 | gap=1.59e-08 cert=1.46e-04 | err=5.87e-04 est=2.77e-02 mu(wSP)=9.9e-03
+Co-K   m=3 eps=0.076 rK=5.36e-04 | gap=3.04e-08 cert=4.38e-04 | err=4.18e-04 est=2.82e-03 mu(wSP)=1.9e-01
+Co-K   m=5 eps=0.093 rK=6.70e-04 | gap=3.69e-08 cert=4.24e-04 | err=6.58e-04 est=1.62e-02 mu(wSP)=4.1e-02
+Co-K   m=7 eps=0.081 rK=2.72e-04 | gap=8.22e-09 cert=1.45e-04 | err=2.27e-04 est=3.34e-03 mu(wSP)=8.1e-02
+Co-Cs  m=3 eps=0.071 rK=7.44e-04 | gap=6.73e-08 cert=6.08e-04 | err=4.76e-04 est=3.42e-03 mu(wSP)=2.2e-01
+Co-Cs  m=5 eps=0.065 rK=3.38e-04 | gap=2.92e-08 cert=2.14e-04 | err=4.45e-04 est=7.48e-03 mu(wSP)=4.5e-02
+Co-Cs  m=7 eps=0.118 rK=7.52e-04 | gap=4.14e-08 cert=4.02e-04 | err=5.79e-04 est=1.32e-02 mu(wSP)=5.7e-02
+Co-Sc  m=3 eps=0.685 rK=7.91e-02 | gap=1.49e-05 cert=6.46e-02 | err=6.12e-04 est=8.40e-04 mu(wSP)=9.4e+01
+Co-Sc  m=5 eps=0.708 rK=4.89e-02 | gap=6.02e-06 cert=3.09e-02 | err=6.28e-04 est=1.65e-03 mu(wSP)=3.0e+01
+Co-Sc  m=7 eps=0.537 rK=1.98e-02 | gap=9.21e-07 cert=1.06e-02 | err=8.00e-04 est=7.48e-01 mu(wSP)=2.7e-02
+Co-Ti  m=3 eps=0.196 rK=6.39e-03 | gap=2.65e-06 cert=5.22e-03 | err=1.31e-03 est=2.04e-03 mu(wSP)=3.1e+00
+Co-Ti  m=5 eps=0.108 rK=9.31e-04 | gap=5.71e-08 cert=5.89e-04 | err=4.81e-04 est=6.45e-03 mu(wSP)=1.4e-01
+Co-Ti  m=7 eps=0.148 rK=9.85e-04 | gap=5.88e-08 cert=5.27e-04 | err=8.85e-04 est=3.41e-02 mu(wSP)=2.9e-02
+K-Cs   m=3 eps=0.053 rK=3.58e-04 | gap=2.03e-08 cert=2.92e-04 | err=2.02e-04 est=1.44e-03 mu(wSP)=2.5e-01
+K-Cs   m=5 eps=0.132 rK=6.01e-04 | gap=3.34e-08 cert=3.80e-04 | err=2.39e-04 est=1.16e-03 mu(wSP)=5.2e-01
+K-Cs   m=7 eps=0.083 rK=3.89e-04 | gap=4.87e-08 cert=2.08e-04 | err=1.18e-03 est=8.29e-03 mu(wSP)=4.7e-02
+K-Sc   m=3 eps=0.053 rK=3.71e-04 | gap=1.70e-08 cert=3.03e-04 | err=2.50e-04 est=1.18e-03 mu(wSP)=3.1e-01
+K-Sc   m=5 eps=0.070 rK=3.19e-04 | gap=3.97e-08 cert=2.01e-04 | err=4.57e-04 est=4.40e-03 mu(wSP)=7.2e-02
+K-Sc   m=7 eps=0.132 rK=7.19e-04 | gap=6.71e-08 cert=3.84e-04 | err=7.26e-04 est=1.92e-02 mu(wSP)=3.7e-02
+K-Ti   m=3 eps=0.037 rK=1.65e-04 | gap=9.70e-10 cert=1.35e-04 | err=8.92e-05 est=9.22e-04 mu(wSP)=1.8e-01
+K-Ti   m=5 eps=0.045 rK=7.85e-05 | gap=6.69e-09 cert=4.96e-05 | err=4.41e-04 est=1.50e-03 mu(wSP)=5.2e-02
+K-Ti   m=7 eps=0.077 rK=2.77e-04 | gap=2.82e-08 cert=1.48e-04 | err=8.93e-04 est=1.94e-02 mu(wSP)=1.4e-02
+Cs-Sc  m=3 eps=0.111 rK=1.79e-03 | gap=1.26e-07 cert=1.46e-03 | err=4.62e-04 est=1.54e-03 mu(wSP)=1.2e+00
+Cs-Sc  m=5 eps=0.111 rK=4.87e-04 | gap=1.33e-08 cert=3.08e-04 | err=3.01e-04 est=3.28e-03 mu(wSP)=1.5e-01
+Cs-Sc  m=7 eps=0.173 rK=8.92e-04 | gap=9.19e-08 cert=4.77e-04 | err=9.46e-04 est=2.17e-02 mu(wSP)=4.1e-02
+Cs-Ti  m=3 eps=0.052 rK=4.41e-04 | gap=3.85e-09 cert=3.60e-04 | err=8.48e-05 est=1.48e-03 mu(wSP)=3.0e-01
+Cs-Ti  m=5 eps=0.181 rK=2.66e-03 | gap=4.25e-07 cert=1.68e-03 | err=7.33e-04 est=9.97e-03 mu(wSP)=2.7e-01
+Cs-Ti  m=7 eps=0.252 rK=3.51e-03 | gap=4.78e-07 cert=1.87e-03 | err=1.23e-03 est=1.41e-01 mu(wSP)=2.5e-02
+Sc-Ti  m=3 eps=0.317 rK=1.63e-02 | gap=4.42e-07 cert=1.33e-02 | err=1.02e-04 est=1.66e-04 mu(wSP)=9.8e+01
+Sc-Ti  m=5 eps=0.352 rK=1.21e-02 | gap=3.71e-06 cert=7.66e-03 | err=3.19e-03 est=3.46e-02 mu(wSP)=3.5e-01
+Sc-Ti  m=7 eps=0.216 rK=3.03e-03 | gap=1.96e-07 cert=1.62e-03 | err=3.36e-04 est=9.97e-03 mu(wSP)=3.0e-01
+# wrote results/uranium_curv.csv

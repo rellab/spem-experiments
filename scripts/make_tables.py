@@ -47,38 +47,36 @@ if os.path.exists(os.path.join(R, "runtime.csv")):
         emit("accuracy", lines)
 
 # ---------------- bound at fixed points (6.4) ----------------
-b = rd("bound.csv")
+# curv.csv (exp_curv.jl): curvature-free certified bound on the loss, local-curvature estimate of the distance
+b = rd("curv.csv")
 lines = []
 for r in b:
     if r["data"] != "gauss0.5": continue
     lines.append(f"${r['size'].replace('x', '\\times ')}$ & {r['K']} & {dec(f(r['eps']))} & {dec(f(r['eta']))} & {sci(f(r['rK']))} & {sci(f(r['taylor_bound_rK']))} & "
-                 f"{sci(f(r['err_w']))} & {sci(f(r['bound_w_data']))} & {sci(f(r['bound_w_actual']))} & {sci(f(r['gap_L']))} & {sci(f(r['bound_L_data']))} & "
-                 f"{sci(f(r['mu_data']))} & {sci(f(r['mu_actual']))} \\\\")
+                 f"{sci(f(r['gap_L']))} & {sci(f(r['cert_L']))} & {sci(f(r['err_w']))} & {sci(f(r['est_w']))} & {sci(f(r['mu_sp']))} \\\\")
 emit("bound-gauss", lines)
 # summary ranges over all data kinds
 def rng(key, rows, fmt=sci):
     v = [f(r[key]) for r in rows]; return f"{fmt(min(v))} to {fmt(max(v))}"
+def rrng(v): return f"{sci(min(v))} to {sci(max(v))}"
 lines = []
 for size in ("2x2", "5x5", "10x10", "5x5x5"):
     rows = [r for r in b if r["size"] == size]
-    ratio_data = [f(r["bound_w_data"]) / f(r["err_w"]) for r in rows]
-    ratio_act = [f(r["bound_w_actual"]) / f(r["err_w"]) for r in rows]
+    cert = [f(r["cert_L"]) / f(r["gap_L"]) for r in rows]
+    est = [f(r["est_w"]) / f(r["err_w"]) for r in rows]
     taylor = [f(r["taylor_bound_rK"]) / f(r["rK"]) for r in rows]
-    curv = [f(r["rK_over_mu_actual"]) / f(r["err_w"]) for r in rows]
-    lines.append(f"${size.replace('x', '\\times ')}$ & {rng('eps', rows, dec)} & {rng('err_w', rows)} & {sci(min(ratio_data))} to {sci(max(ratio_data))} & "
-                 f"{dec(min(taylor),1)} to {dec(max(taylor),1)} & {dec(min(curv),1)} to {dec(max(curv),1)} & {sci(min(ratio_act))} to {sci(max(ratio_act))} \\\\")
+    lines.append(f"${size.replace('x', '\\times ')}$ & {rng('eps', rows, dec)} & {dec(min(taylor),1)} to {dec(max(taylor),1)} & {rng('gap_L', rows)} & {rng('cert_L', rows)} & "
+                 f"{rrng(cert)} & {rng('err_w', rows)} & {rat(min(est))} to {rat(max(est))} \\\\")
 emit("bound-summary", lines)
 
 # ---------------- stopped iterates ----------------
-if os.path.exists(os.path.join(R, "bound_stopped.csv")):
-    s = rd("bound_stopped.csv")
-    if "converged" in s[0]:
-        lines = []
-        for r in s:
-            if r["data"] != "gauss0.5": continue
-            lines.append(f"${r['size'].replace('x', '\\times ')}$ & {sci(f(r['abstol']),0)} & {r['iter']} & {sci(f(r['tau']))} & {dec(f(r['eps']))} & {sci(f(r['RK']))} & {sci(f(r['rK_direct']))} & "
-                         f"{sci(f(r['err_w']))} & {sci(f(r['bound_w_RK']))} & {sci(f(r['bound_w_rK']))} & {sci(f(r['gap_L']))} & {sci(f(r['bound_L_RK']))} \\\\")
-        emit("stopped-gauss", lines)
+s = rd("curv_stopped.csv")
+lines = []
+for r in s:
+    if r["data"] != "gauss0.5": continue
+    lines.append(f"${r['size'].replace('x', '\\times ')}$ & {sci(f(r['abstol']),0)} & {r['iter']} & {sci(f(r['tau']))} & {dec(f(r['eps']))} & {sci(f(r['RK']))} & {sci(f(r['rK']))} & "
+                 f"{sci(f(r['gap_L']))} & {sci(f(r['cert_L_RK']))} & {sci(f(r['cert_L_rK']))} & {sci(f(r['err_w']))} & {sci(f(r['est_w']))} \\\\")
+emit("stopped-gauss", lines)
 
 # ---------------- initial values (6.5) ----------------
 ini = rd("init_summary.csv")
@@ -146,14 +144,14 @@ for m in ("3", "5"):
         nd = [int(r["ndec"]) for r in rr]
         lines.append(f"{m} & {lab2} & {sum(n > 0 for n in nd)} & {sum(nd)} & {max(nd)} & {sci(max(f(r['maxdec']) for r in rr))} \\\\")
 emit("uranium-monotone", lines)
-# bound on uranium (fixed points), all pairs summary per m + representative rows
-ub = rd("uranium_bound.csv")
+# bound on uranium (fixed points), representative rows (uranium_curv.csv from exp_curv.jl)
+ub = rd("uranium_curv.csv")
 lines = []
 for p in ("Co-Sc", "Sc-Ti", "K-Cs", "U-Li", "Li-Co"):
     for i, m in enumerate(("3", "5", "7")):
         r = next(r for r in ub if r["pair"] == p and r["m"] == m)
-        lines.append(f"{p.replace('-', '--') if i == 0 else ''} & {m} & {dec(f(r['eps_fp']))} & {dec(f(r['eta_fp']))} & {sci(f(r['rK_fp']))} & {sci(f(r['err_fp']))} & {sci(f(r['bound_w_fp']))} & "
-                     f"{sci(f(r['rK_fp'])/f(r['mu_actual']))} & {sci(f(r['gap_fp']))} & {sci(f(r['mu_data']))} & {sci(f(r['mu_actual']))} \\\\")
+        lines.append(f"{p.replace('-', '--') if i == 0 else ''} & {m} & {dec(f(r['eps']))} & {dec(f(r['eta']))} & {sci(f(r['rK']))} & {sci(f(r['gap_L']))} & {sci(f(r['cert_L']))} & "
+                     f"{sci(f(r['err_w']))} & {sci(f(r['est_w']))} & {sci(f(r['mu_sp']))} \\\\")
 emit("uranium-bound", lines)
 # d = 3
 u3 = rd("uranium_d3.csv")

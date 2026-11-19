@@ -49,6 +49,7 @@ julia --project=. scripts/exp_bound.jl      # results/bound.csv
 julia --project=. scripts/exp_stopped.jl    # results/bound_stopped.csv
 julia --project=. scripts/exp_init.jl       # results/init_runs.csv, init_summary.csv
 julia --project=. scripts/exp_uranium.jl    # results/uranium_{pairs,bound,d3,monotone}.csv
+julia --project=. scripts/exp_curv.jl       # results/curv.csv, curv_stopped.csv, uranium_curv.csv (checks against the bound CSVs above)
 
 python3 scripts/make_tables.py              # results/tables.tex
 ```
@@ -74,13 +75,13 @@ Running all six scripts takes a few hours on a laptop; `exp_runtime.jl` and `exp
 | Table 2 (runtime, d = 3) | `runtime-d3` | `runtime.csv` |
 | Table 3 (larger orders and dimensions) | `large` | `large.csv` |
 | Table 4 (estimation accuracy) | `accuracy` | `runtime.csv` |
-| Table 5 (bound quantities, Gaussian data) | `bound-gauss` | `bound.csv` |
-| Table 6 (bound summary) | `bound-summary` | `bound.csv` |
-| Table 7 (stopped iterates, Corollary 1) | `stopped-gauss` | `bound_stopped.csv` |
+| Table 5 (bound quantities, Gaussian data) | `bound-gauss` | `curv.csv` |
+| Table 6 (bound summary) | `bound-summary` | `curv.csv` |
+| Table 7 (stopped iterates, Corollary 1) | `stopped-gauss` | `curv_stopped.csv` |
 | Table 8 (initial values) | `init` | `init_summary.csv` |
 | Table 9 (uranium, summary over 21 pairs) | `uranium-summary` | `uranium_pairs.csv` |
 | Table 10 (uranium, effect of the order) | `uranium-orders` | `uranium_pairs.csv` |
-| Table 11 (uranium, bound quantities) | `uranium-bound` | `uranium_bound.csv` |
+| Table 11 (uranium, bound quantities) | `uranium-bound` | `uranium_curv.csv` |
 | Table 12 (uranium, monotonicity of the objective) | `uranium-monotone` | `uranium_monotone.csv` |
 | Table 13 (uranium, trivariate Co-Sc-Ti) | `uranium-d3` | `uranium_d3.csv` |
 | Table 14 (Appendix B, all 21 pairs) | `uranium-full` | `uranium_pairs.csv` |
