@@ -179,5 +179,16 @@ if os.path.exists(os.path.join(R, "large.csv")):
                              f"{sp['iter']}{dag(sp)}/{ne['iter']}{dag(ne)} & {dec(1e3*f(sp['time_s'])/int(sp['iter']),1)}/{dec(1e3*f(ne['time_s'])/int(ne['iter']),1)} & {sci(f(sp['dllf_per_K']))} \\\\")
     emit("large", lines)
 
+# ---------------- direct Newton solver vs EM-type iterations (6.2) ----------------
+dr = rd("direct.csv")
+lines = []
+for size in ("5x5", "10x10", "20x20", "30x30", "5x5x5", "10x10x10", "5x5x5x5"):
+    rows = [r for r in dr if r["size"] == size]
+    its = [int(r["it_direct"]) for r in rows]
+    a = [f(r["t_sp"]) / f(r["t_direct"]) for r in rows]; b = [f(r["t_newtonem"]) / f(r["t_direct"]) for r in rows]
+    lines.append(f"${size.replace('x', '\\times ')}$ & {rows[0]['p']} & {min(its)} to {max(its)} & {rat(min(a))} to {rat(max(a))} & {rat(min(b))} to {rat(max(b))} & "
+                 f"{rng('gap_sp', rows)} & {rng('gap_newtonem', rows)} \\\\")
+emit("direct", lines)
+
 open(os.path.join(R, "tables.tex"), "w").write("\n".join(out))
 print("\n".join(out))

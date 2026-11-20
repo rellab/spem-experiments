@@ -83,7 +83,10 @@ function constraint_matrices(ns)
         for (q, I) in enumerate(idxs); A0[off + I[k], q] = 1.0; end
         b0[off+1:off+ns[k]] .= 1.0 / ns[k]; off += ns[k]
     end
-    Bt = nullspace(A0)                         # orthonormal columns
+    # orthonormal basis of ker A0; A0 has rank sum(ns) - d + 1 (each axis block sums to the all-ones row).
+    # The default tolerance of nullspace misjudges the rank for large tensors (10x10x10), so set it explicitly.
+    Bt = nullspace(A0; atol = 1e-8)
+    @assert size(Bt, 2) == p - (sum(ns) - d + 1) "tangent basis has the wrong dimension"
     A0, b0, Bt
 end
 

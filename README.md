@@ -45,6 +45,7 @@ julia --project=. -e 'using Pkg; Pkg.instantiate()'
 
 julia --project=. scripts/exp_runtime.jl    # results/runtime.csv
 julia --project=. scripts/exp_large.jl      # results/large.csv
+julia --project=. scripts/exp_direct.jl     # results/direct.csv
 julia --project=. scripts/exp_bound.jl      # results/bound.csv
 julia --project=. scripts/exp_stopped.jl    # results/bound_stopped.csv
 julia --project=. scripts/exp_init.jl       # results/init_runs.csv, init_summary.csv
@@ -74,17 +75,22 @@ Running all six scripts takes a few hours on a laptop; `exp_runtime.jl` and `exp
 | Table 1 (runtime, d = 2) | `runtime-d2` | `runtime.csv` |
 | Table 2 (runtime, d = 3) | `runtime-d3` | `runtime.csv` |
 | Table 3 (larger orders and dimensions) | `large` | `large.csv` |
-| Table 4 (estimation accuracy) | `accuracy` | `runtime.csv` |
-| Table 5 (bound quantities, Gaussian data) | `bound-gauss` | `curv.csv` |
-| Table 6 (bound summary) | `bound-summary` | `curv.csv` |
-| Table 7 (stopped iterates, Corollary 1) | `stopped-gauss` | `curv_stopped.csv` |
-| Table 8 (initial values) | `init` | `init_summary.csv` |
-| Table 9 (uranium, summary over 21 pairs) | `uranium-summary` | `uranium_pairs.csv` |
-| Table 10 (uranium, effect of the order) | `uranium-orders` | `uranium_pairs.csv` |
-| Table 11 (uranium, bound quantities) | `uranium-bound` | `uranium_curv.csv` |
-| Table 12 (uranium, monotonicity of the objective) | `uranium-monotone` | `uranium_monotone.csv` |
-| Table 13 (uranium, trivariate Co-Sc-Ti) | `uranium-d3` | `uranium_d3.csv` |
-| Table 14 (Appendix B, all 21 pairs) | `uranium-full` | `uranium_pairs.csv` |
+| Table 4 (direct Newton method vs EM-type iterations) | `direct` | `direct.csv` |
+| Table 5 (estimation accuracy) | `accuracy` | `runtime.csv` |
+| Table 6 (bound quantities, Gaussian data) | `bound-gauss` | `curv.csv` |
+| Table 7 (bound summary) | `bound-summary` | `curv.csv` |
+| Table 8 (stopped iterates, Corollary 1) | `stopped-gauss` | `curv_stopped.csv` |
+| Table 9 (initial values) | `init` | `init_summary.csv` |
+| Table 10 (uranium, summary over 21 pairs) | `uranium-summary` | `uranium_pairs.csv` |
+| Table 11 (uranium, effect of the order) | `uranium-orders` | `uranium_pairs.csv` |
+| Table 12 (uranium, bound quantities) | `uranium-bound` | `uranium_curv.csv` |
+| Table 13 (uranium, monotonicity of the objective) | `uranium-monotone` | `uranium_monotone.csv` |
+| Table 14 (uranium, trivariate Co-Sc-Ti) | `uranium-d3` | `uranium_d3.csv` |
+| Table 15 (Appendix B, all 21 pairs) | `uranium-full` | `uranium_pairs.csv` |
+
+## Correction of 2026-11-20
+
+Until this date `constraint_matrices` returned a tangent-space basis with 971 instead of 972 columns for the 10x10x10 order, because `nullspace` misjudged the rank of the constraint matrix. The EM fits and all timings are unaffected, since they do not use this basis. The reference MAP estimate of the 10x10x10 configurations was affected slightly (weights by at most 1e-3, normalized objective by at most 3e-7). `scripts/fix_reference_10x10x10.jl` recomputed the reference-dependent columns of `runtime.csv` and `large.csv` for those rows with the corrected basis and left every other entry unchanged; its output is in `results/logs/fix_reference_10x10x10.log`. With the corrected `src/lib.jl`, `exp_runtime.jl` and `exp_large.jl` reproduce these values directly.
 
 ## Data
 
