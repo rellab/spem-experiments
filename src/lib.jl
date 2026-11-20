@@ -20,6 +20,9 @@
 
 using LinearAlgebra, Random, Printf, Statistics, Distributions, DelimitedFiles
 
+# All experiments run single-threaded: one Julia thread (the default) and one BLAS thread.
+BLAS.set_num_threads(1)
+
 const V2RESULTS = normpath(joinpath(@__DIR__, "..", "results"))
 const V2DATA    = normpath(joinpath(@__DIR__, "..", "data"))
 

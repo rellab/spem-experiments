@@ -88,9 +88,9 @@ Running all six scripts takes a few hours on a laptop; `exp_runtime.jl` and `exp
 | Table 14 (uranium, trivariate Co-Sc-Ti) | `uranium-d3` | `uranium_d3.csv` |
 | Table A1 (Appendix B, all 21 pairs) | `uranium-full` | `uranium_pairs.csv` |
 
-## Correction of 2026-11-20
+## Run of 2026-11-20
 
-Until this date `constraint_matrices` returned a tangent-space basis with 971 instead of 972 columns for the 10x10x10 order, because `nullspace` misjudged the rank of the constraint matrix. The EM fits and all timings are unaffected, since they do not use this basis. The reference MAP estimate of the 10x10x10 configurations was affected slightly (weights by at most 1e-3, normalized objective by at most 3e-7). `scripts/fix_reference_10x10x10.jl` recomputed the reference-dependent columns of `runtime.csv` and `large.csv` for those rows with the corrected basis and left every other entry unchanged; its output is in `results/logs/fix_reference_10x10x10.log`. With the corrected `src/lib.jl`, `exp_runtime.jl` and `exp_large.jl` reproduce these values directly.
+All result files in `results/` come from a single sequential run of the scripts on 2026-11-20 (Julia 1.12.2, Apple M4, AC power), with one Julia thread and one BLAS thread (`BLAS.set_num_threads(1)` in `src/lib.jl`). Two things changed with respect to the earlier files in the git history: the tangent-space basis returned by `constraint_matrices` now has the correct dimension for the 10x10x10 order (it had 971 instead of 972 columns, which affected only the reference solution of those configurations), and the timings were previously taken with the default four BLAS threads. Quantities that do not involve time agree with the earlier files to a relative difference below 1e-6, apart from the reference-dependent columns of the 10x10x10 rows.
 
 ## Data
 
