@@ -5,10 +5,10 @@ Code, data, and results for the paper
 > H. Okamura, K. Nakayama, and T. Dohi,
 > **Sinkhorn Projection EM for Bernstein Copulas**,
 > Graduate School of Advanced Science and Engineering, Hiroshima University.
-> Submitted to *Computational Statistics & Data Analysis* (2026).
+> Prepared for the MDPI journal *Stats*, Special Issue "Copula Theory and Application" (2026).
 
 Every number in the paper is produced by the scripts in this repository.
-The CSV files in `results/` are the exact outputs used for the submitted manuscript.
+The CSV files in `results/` are the exact outputs used for the manuscript.
 
 ## What is here
 
@@ -86,7 +86,7 @@ Running all six scripts takes a few hours on a laptop; `exp_runtime.jl` and `exp
 | Table 12 (uranium, bound quantities) | `uranium-bound` | `uranium_curv.csv` |
 | Table 13 (uranium, monotonicity of the objective) | `uranium-monotone` | `uranium_monotone.csv` |
 | Table 14 (uranium, trivariate Co-Sc-Ti) | `uranium-d3` | `uranium_d3.csv` |
-| Table 15 (Appendix B, all 21 pairs) | `uranium-full` | `uranium_pairs.csv` |
+| Table A1 (Appendix B, all 21 pairs) | `uranium-full` | `uranium_pairs.csv` |
 
 ## Correction of 2026-11-20
 
