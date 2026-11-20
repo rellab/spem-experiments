@@ -1,22 +1,22 @@
-d=2 indep     5x5       p=  25 | SP 0.035s it=2500 gap=5.1e-06 | NewtonEM 0.056s it=2500 gap=1.0e-06 | direct 0.000s it= 14 g=2.8e-09 gap=0.0e+00 | SP/direct=78.09
-d=2 gauss0.5  5x5       p=  25 | SP 0.028s it=2500 gap=5.6e-06 | NewtonEM 0.048s it=2311 gap=2.0e-08 | direct 0.001s it= 25 g=7.6e-09 gap=0.0e+00 | SP/direct=33.11
-d=2 clayton2  5x5       p=  25 | SP 0.026s it=1881 gap=3.3e-06 | NewtonEM 0.027s it=1341 gap=2.5e-08 | direct 0.001s it= 33 g=1.3e-07 gap=0.0e+00 | SP/direct=24.88
-d=2 indep     10x10     p= 100 | SP 0.126s it=2500 gap=1.5e-05 | NewtonEM 0.209s it=2500 gap=8.3e-07 | direct 0.005s it= 27 g=8.2e-07 gap=0.0e+00 | SP/direct=25.11
-d=2 gauss0.5  10x10     p= 100 | SP 0.123s it=2500 gap=3.0e-05 | NewtonEM 0.213s it=2500 gap=3.9e-06 | direct 0.007s it= 36 g=6.2e-07 gap=0.0e+00 | SP/direct=17.67
-d=2 clayton2  10x10     p= 100 | SP 0.124s it=2500 gap=8.8e-05 | NewtonEM 0.211s it=2500 gap=1.9e-07 | direct 0.009s it= 48 g=4.2e-10 gap=0.0e+00 | SP/direct=13.39
-d=2 indep     20x20     p= 400 | SP 0.464s it=2500 gap=2.8e-05 | NewtonEM 0.759s it=2301 gap=1.8e-06 | direct 0.086s it= 25 g=1.9e-08 gap=0.0e+00 | SP/direct=5.41
-d=2 gauss0.5  20x20     p= 400 | SP 0.474s it=2500 gap=4.2e-05 | NewtonEM 0.833s it=2500 gap=3.4e-06 | direct 0.153s it= 43 g=4.6e-10 gap=0.0e+00 | SP/direct=3.10
-d=2 clayton2  20x20     p= 400 | SP 0.474s it=2500 gap=1.4e-04 | NewtonEM 0.827s it=2500 gap=5.9e-06 | direct 0.216s it= 61 g=2.6e-09 gap=0.0e+00 | SP/direct=2.19
-d=2 indep     30x30     p= 900 | SP 1.149s it=2500 gap=4.2e-05 | NewtonEM 1.938s it=2500 gap=1.5e-06 | direct 0.725s it= 24 g=5.5e-07 gap=0.0e+00 | SP/direct=1.58
-d=2 gauss0.5  30x30     p= 900 | SP 1.159s it=2500 gap=8.4e-05 | NewtonEM 1.944s it=2500 gap=2.2e-06 | direct 1.289s it= 41 g=1.1e-08 gap=0.0e+00 | SP/direct=0.90
-d=2 clayton2  30x30     p= 900 | SP 1.147s it=2500 gap=2.5e-04 | NewtonEM 1.952s it=2500 gap=2.5e-06 | direct 1.945s it= 64 g=6.7e-08 gap=0.0e+00 | SP/direct=0.59
-d=3 indep     5x5x5     p= 125 | SP 0.167s it=2500 gap=1.1e-05 | NewtonEM 0.184s it=1431 gap=8.4e-07 | direct 0.009s it= 30 g=5.5e-08 gap=0.0e+00 | SP/direct=19.63
-d=3 gauss0.5  5x5x5     p= 125 | SP 0.128s it=1941 gap=5.1e-05 | NewtonEM 0.182s it=1421 gap=1.1e-06 | direct 0.017s it= 57 g=2.5e-07 gap=0.0e+00 | SP/direct=7.49
-d=3 clayton2  5x5x5     p= 125 | SP 0.126s it=1611 gap=7.4e-05 | NewtonEM 0.093s it= 681 gap=1.0e-07 | direct 0.022s it= 73 g=2.1e-10 gap=0.0e+00 | SP/direct=5.86
-d=3 indep     10x10x10  p=1000 | SP 1.158s it=2271 gap=7.1e-05 | NewtonEM 1.785s it=1751 gap=6.2e-07 | direct 1.147s it= 28 g=1.5e-09 gap=0.0e+00 | SP/direct=1.01
-d=3 gauss0.5  10x10x10  p=1000 | SP 1.291s it=2500 gap=1.7e-04 | NewtonEM 2.331s it=2311 gap=3.5e-07 | direct 2.183s it= 53 g=3.2e-07 gap=0.0e+00 | SP/direct=0.59
-d=3 clayton2  10x10x10  p=1000 | SP 0.748s it=1331 gap=9.3e-05 | NewtonEM 1.222s it=1171 gap=7.1e-07 | direct 3.099s it= 75 g=4.4e-10 gap=0.0e+00 | SP/direct=0.24
-d=4 indep     5x5x5x5   p= 625 | SP 0.453s it=1411 gap=1.0e-04 | NewtonEM 0.918s it=1261 gap=3.7e-07 | direct 0.415s it= 30 g=2.6e-07 gap=0.0e+00 | SP/direct=1.09
-d=4 gauss0.5  5x5x5x5   p= 625 | SP 0.749s it=2361 gap=2.0e-05 | NewtonEM 0.959s it=1341 gap=1.1e-06 | direct 1.003s it= 75 g=8.4e-09 gap=0.0e+00 | SP/direct=0.75
-d=4 clayton2  5x5x5x5   p= 625 | SP 0.398s it= 851 gap=3.1e-05 | NewtonEM 0.642s it= 871 gap=1.9e-08 | direct 1.235s it= 96 g=3.1e-07 gap=0.0e+00 | SP/direct=0.32
+d=2 indep     5x5       p=  25 | SP 0.035s it=2500 gap=5.1e-06 | NewtonEM 0.056s it=2500 gap=1.0e-06 | direct 0.000s it= 14 g=2.8e-09 gap=0.0e+00 | SP/direct=82.70
+d=2 gauss0.5  5x5       p=  25 | SP 0.028s it=2500 gap=5.6e-06 | NewtonEM 0.047s it=2311 gap=2.0e-08 | direct 0.001s it= 25 g=7.6e-09 gap=0.0e+00 | SP/direct=33.19
+d=2 clayton2  5x5       p=  25 | SP 0.024s it=1881 gap=3.3e-06 | NewtonEM 0.027s it=1341 gap=2.5e-08 | direct 0.001s it= 33 g=1.3e-07 gap=0.0e+00 | SP/direct=22.06
+d=2 indep     10x10     p= 100 | SP 0.124s it=2500 gap=1.5e-05 | NewtonEM 0.212s it=2500 gap=8.3e-07 | direct 0.009s it= 27 g=8.2e-07 gap=0.0e+00 | SP/direct=13.80
+d=2 gauss0.5  10x10     p= 100 | SP 0.122s it=2500 gap=3.0e-05 | NewtonEM 0.211s it=2500 gap=3.9e-06 | direct 0.012s it= 36 g=6.2e-07 gap=0.0e+00 | SP/direct=10.41
+d=2 clayton2  10x10     p= 100 | SP 0.121s it=2500 gap=8.8e-05 | NewtonEM 0.207s it=2500 gap=1.9e-07 | direct 0.016s it= 48 g=4.2e-10 gap=0.0e+00 | SP/direct=7.39
+d=2 indep     20x20     p= 400 | SP 0.463s it=2500 gap=2.8e-05 | NewtonEM 0.757s it=2301 gap=1.8e-06 | direct 0.198s it= 25 g=1.9e-08 gap=0.0e+00 | SP/direct=2.34
+d=2 gauss0.5  20x20     p= 400 | SP 0.468s it=2500 gap=4.2e-05 | NewtonEM 0.830s it=2500 gap=3.4e-06 | direct 0.376s it= 43 g=4.6e-10 gap=0.0e+00 | SP/direct=1.24
+d=2 clayton2  20x20     p= 400 | SP 0.476s it=2500 gap=1.4e-04 | NewtonEM 0.844s it=2500 gap=5.9e-06 | direct 0.604s it= 61 g=2.6e-09 gap=0.0e+00 | SP/direct=0.79
+d=2 indep     30x30     p= 900 | SP 1.141s it=2500 gap=4.2e-05 | NewtonEM 1.955s it=2500 gap=1.5e-06 | direct 1.812s it= 24 g=5.5e-07 gap=0.0e+00 | SP/direct=0.63
+d=2 gauss0.5  30x30     p= 900 | SP 1.165s it=2500 gap=8.4e-05 | NewtonEM 1.992s it=2500 gap=2.2e-06 | direct 3.061s it= 41 g=1.1e-08 gap=0.0e+00 | SP/direct=0.38
+d=2 clayton2  30x30     p= 900 | SP 1.119s it=2500 gap=2.5e-04 | NewtonEM 1.929s it=2500 gap=2.5e-06 | direct 4.987s it= 64 g=6.7e-08 gap=0.0e+00 | SP/direct=0.22
+d=3 indep     5x5x5     p= 125 | SP 0.165s it=2500 gap=1.1e-05 | NewtonEM 0.185s it=1431 gap=8.4e-07 | direct 0.017s it= 30 g=5.5e-08 gap=0.0e+00 | SP/direct=9.76
+d=3 gauss0.5  5x5x5     p= 125 | SP 0.124s it=1941 gap=5.1e-05 | NewtonEM 0.182s it=1421 gap=1.1e-06 | direct 0.033s it= 57 g=2.5e-07 gap=0.0e+00 | SP/direct=3.72
+d=3 clayton2  5x5x5     p= 125 | SP 0.127s it=1611 gap=7.4e-05 | NewtonEM 0.091s it= 681 gap=1.0e-07 | direct 0.042s it= 73 g=2.1e-10 gap=0.0e+00 | SP/direct=3.02
+d=3 indep     10x10x10  p=1000 | SP 1.141s it=2271 gap=7.1e-05 | NewtonEM 1.787s it=1751 gap=6.2e-07 | direct 2.993s it= 28 g=1.5e-09 gap=0.0e+00 | SP/direct=0.38
+d=3 gauss0.5  10x10x10  p=1000 | SP 1.269s it=2500 gap=1.7e-04 | NewtonEM 2.315s it=2311 gap=3.5e-07 | direct 5.603s it= 53 g=3.2e-07 gap=0.0e+00 | SP/direct=0.23
+d=3 clayton2  10x10x10  p=1000 | SP 0.680s it=1331 gap=9.3e-05 | NewtonEM 1.194s it=1171 gap=7.1e-07 | direct 7.816s it= 75 g=4.4e-10 gap=0.0e+00 | SP/direct=0.09
+d=4 indep     5x5x5x5   p= 625 | SP 0.436s it=1411 gap=1.0e-04 | NewtonEM 0.913s it=1261 gap=3.7e-07 | direct 0.880s it= 30 g=2.6e-07 gap=0.0e+00 | SP/direct=0.50
+d=4 gauss0.5  5x5x5x5   p= 625 | SP 0.730s it=2361 gap=2.0e-05 | NewtonEM 0.950s it=1341 gap=1.1e-06 | direct 2.475s it= 75 g=8.4e-09 gap=0.0e+00 | SP/direct=0.29
+d=4 clayton2  5x5x5x5   p= 625 | SP 0.391s it= 851 gap=3.1e-05 | NewtonEM 0.657s it= 871 gap=1.9e-08 | direct 2.893s it= 96 g=3.1e-07 gap=0.0e+00 | SP/direct=0.14
 # wrote results/direct.csv

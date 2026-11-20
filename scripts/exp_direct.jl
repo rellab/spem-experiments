@@ -3,8 +3,10 @@
 # (cold start from the uniform weights, stop at ||P grad L_K|| <= 1e-6) against SP-EM and
 # Newton-EM under the common stopping rule, on the data of exp_large.jl (K = 500).
 # One warm-up call per method, then the best of three runs (one run when p >= 512).
+# All methods run with one Julia thread and one BLAS thread.
 include(joinpath(@__DIR__, "..", "src", "lib.jl"))
 const ALPHA = 1e-3
+BLAS.set_num_threads(1)      # one linear-algebra thread for all three methods, so that the comparison is single-threaded
 kinds = [(:indep, 0.0, "indep"), (:gauss, 0.5, "gauss0.5"), (:clayton, 2.0, "clayton2")]
 configs = [(2, 5), (2, 10), (2, 20), (2, 30), (3, 5), (3, 10), (4, 5)]
 K = 500; rows = Any[]
